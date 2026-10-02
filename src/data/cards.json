@@ -1,0 +1,2103 @@
+[
+  {
+    "id": "client",
+    "term": "클라이언트",
+    "termFull": "Client",
+    "aliases": ["client", "클라이언트"],
+    "stage": 1,
+    "icon": "Monitor",
+    "chip": "요청하는 쪽",
+    "definition": "화면을 보여 주고, 필요한 것을 서버에 요청하는 쪽이에요. 브라우저나 스마트폰 앱이 여기에 해당해요.",
+    "analogy": "메뉴를 보고 주문하는 식당 손님",
+    "example": "크롬 브라우저, 인스타그램 앱",
+    "confusableWith": ["server"],
+    "contrast": "클라이언트는 주문하는 손님, 서버는 주문을 처리하는 주방이에요.",
+    "situation": {
+      "aiSays": "이 입력값 검사를 클라이언트에서만 하면 우회될 수 있어요.",
+      "question": "AI가 걱정하는 점은?",
+      "answer": "사용자 기기(브라우저) 쪽 검사만으로는 조작될 수 있다는 뜻",
+      "distractors": [
+        "서버 컴퓨터가 고장 날 수 있다는 뜻",
+        "고객 명단이 삭제될 수 있다는 뜻",
+        "인터넷 속도가 느려진다는 뜻"
+      ]
+    },
+    "explainKeywords": ["화면", "요청"],
+    "vibeTip": "\"입력값은 클라이언트에서 먼저 확인하고 서버에서도 한 번 더 확인해줘\"처럼 어디서 처리할지 지정할 수 있어요.",
+    "source": "pdf",
+    "pdfPage": 12
+  },
+  {
+    "id": "server",
+    "term": "서버",
+    "termFull": "Server",
+    "aliases": ["server", "서버"],
+    "stage": 1,
+    "icon": "Server",
+    "chip": "처리하는 쪽",
+    "definition": "요청을 받아 처리하고 결과를 돌려주는 컴퓨터예요. 계속 켜져 있으면서 여러 사용자의 요청을 받아요.",
+    "analogy": "주문서를 받아 요리를 내주는 식당 주방",
+    "example": "로그인 요청을 받아 회원 정보를 확인하는 컴퓨터",
+    "confusableWith": ["client"],
+    "contrast": "클라이언트는 주문하는 손님, 서버는 주문을 처리하는 주방이에요.",
+    "situation": {
+      "aiSays": "서버를 재시작해야 변경 사항이 반영돼요.",
+      "question": "무슨 뜻일까요?",
+      "answer": "요청을 처리하는 프로그램을 껐다 켜야 수정한 내용이 적용된다는 뜻",
+      "distractors": [
+        "모니터를 껐다 켜야 한다는 뜻",
+        "브라우저를 새로 설치해야 한다는 뜻",
+        "인터넷 공유기를 바꿔야 한다는 뜻"
+      ]
+    },
+    "explainKeywords": ["요청", "처리", "결과"],
+    "vibeTip": "\"로컬에서 서버 실행하는 방법 알려줘\"라고 물어볼 수 있어요.",
+    "source": "pdf",
+    "pdfPage": 12
+  },
+  {
+    "id": "dns",
+    "term": "DNS",
+    "termFull": "Domain Name System",
+    "aliases": ["dns", "디엔에스"],
+    "stage": 1,
+    "icon": "BookOpen",
+    "chip": "주소 찾기",
+    "definition": "naver.com 같은 사람용 주소를 컴퓨터가 쓰는 숫자 주소로 바꿔 주는 시스템이에요.",
+    "analogy": "친구 이름으로 연락처를 찾는 전화번호부",
+    "example": "새로 산 도메인을 내 사이트에 연결할 때 설정해요",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "도메인 설정은 끝났는데, DNS 변경이 반영되기까지 몇 시간 걸릴 수 있어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "주소와 서버를 잇는 정보가 인터넷 전체에 퍼지는 데 시간이 걸린다는 뜻",
+      "distractors": [
+        "도메인을 새로 사야 한다는 뜻",
+        "서버 용량이 부족하다는 뜻",
+        "코드에 오류가 있다는 뜻"
+      ]
+    },
+    "explainKeywords": ["도메인", "숫자 주소", "바꿔"],
+    "vibeTip": "\"내 도메인을 이 사이트에 연결하는 설정 방법 알려줘\"",
+    "source": "pdf",
+    "pdfPage": 2
+  },
+  {
+    "id": "ip",
+    "term": "IP 주소",
+    "termFull": "IP Address",
+    "aliases": ["ip", "ip주소", "아이피"],
+    "stage": 1,
+    "icon": "MapPin",
+    "chip": "컴퓨터의 집 주소",
+    "definition": "인터넷에 연결된 기기마다 붙는 숫자 주소예요. 예: 142.250.76.14",
+    "analogy": "택배가 찾아가는 실제 집 주소",
+    "example": "접속 기록에 남는 방문자 기기의 번호",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "특정 IP에서 요청이 너무 많이 와서 차단했어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "특정 기기(주소)에서 오는 접속을 막았다는 뜻",
+      "distractors": [
+        "특정 사용자의 비밀번호를 바꿨다는 뜻",
+        "사이트 이름을 바꿨다는 뜻",
+        "데이터베이스를 삭제했다는 뜻"
+      ]
+    },
+    "explainKeywords": ["숫자", "주소", "기기"],
+    "vibeTip": "\"같은 곳에서 요청이 너무 많이 오면 막아줘\"라고 보안을 부탁할 수 있어요.",
+    "source": "pdf",
+    "pdfPage": 2
+  },
+  {
+    "id": "handshake",
+    "term": "3-Way Handshake",
+    "termFull": "연결 확인 인사",
+    "aliases": ["handshake", "핸드셰이크", "3wayhandshake"],
+    "stage": 1,
+    "icon": "Handshake",
+    "chip": "연결 확인",
+    "definition": "데이터를 주고받기 전에 서버와 세 번 신호를 주고받으며 연결 준비가 됐는지 확인하는 과정이에요.",
+    "analogy": "'여보세요?' → '네, 들려요' → '말씀하세요' 전화 인사",
+    "example": "주소를 입력하고 화면이 뜨기 전, 보이지 않게 먼저 일어나요",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "연결 단계에서 시간이 초과됐어요. 서버와 핸드셰이크가 끝나지 않았어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "데이터를 보내기 전 '연결 확인' 인사가 끝나지 않았다는 뜻",
+      "distractors": [
+        "로그인 비밀번호가 틀렸다는 뜻",
+        "화면 디자인이 깨졌다는 뜻",
+        "데이터가 저장됐다는 뜻"
+      ]
+    },
+    "explainKeywords": ["연결", "확인", "주고받"],
+    "vibeTip": "\"연결 시간 초과 에러가 나는데 원인 찾아줘\"",
+    "source": "pdf",
+    "pdfPage": 2
+  },
+  {
+    "id": "http",
+    "term": "HTTP 요청/응답",
+    "termFull": "HTTP Request / Response",
+    "aliases": ["http", "http요청", "http응답", "http요청응답"],
+    "stage": 1,
+    "icon": "ArrowLeftRight",
+    "chip": "주문과 서빙",
+    "definition": "브라우저가 '이 자료 주세요'라고 요청하고, 서버가 '여기요'라고 돌려주는 약속된 대화 방식이에요.",
+    "analogy": "메뉴를 주문하고 음식을 받는 과정",
+    "example": "404(없음), 500(서버 오류) 같은 숫자가 응답 결과예요",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "요청은 갔는데 응답 코드가 500으로 왔어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "서버 쪽에서 처리하다 오류가 났다는 뜻",
+      "distractors": [
+        "요청한 페이지가 원래 없다는 뜻",
+        "정상적으로 성공했다는 뜻",
+        "인터넷이 끊겼다는 뜻"
+      ]
+    },
+    "explainKeywords": ["요청", "응답", "서버"],
+    "vibeTip": "\"응답 코드가 500인데 서버 로그 확인해줘\"",
+    "source": "pdf",
+    "pdfPage": 2
+  },
+  {
+    "id": "rendering",
+    "term": "렌더링",
+    "termFull": "Rendering",
+    "aliases": ["rendering", "렌더링"],
+    "stage": 1,
+    "icon": "Blocks",
+    "chip": "화면 그리기",
+    "definition": "받아 온 HTML·CSS 코드를 해석해서 실제 눈에 보이는 화면으로 그려 내는 과정이에요.",
+    "analogy": "레고 설명서를 보고 블록을 조립하기",
+    "example": "페이지가 하얗다가 글자와 이미지가 나타나는 순간",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "데이터는 받았는데 렌더링이 안 돼서 화면이 비어 있어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "정보는 도착했지만 화면에 그려지지 않았다는 뜻",
+      "distractors": [
+        "데이터를 아직 못 받았다는 뜻",
+        "서버가 꺼졌다는 뜻",
+        "도메인이 만료됐다는 뜻"
+      ]
+    },
+    "explainKeywords": ["코드", "화면", "그려"],
+    "vibeTip": "\"목록이 화면에 안 그려져. 그리는 부분 확인해줘\"",
+    "source": "pdf",
+    "pdfPage": 2
+  },
+  {
+    "id": "frontend",
+    "term": "프론트엔드",
+    "termFull": "Frontend",
+    "aliases": ["frontend", "프론트", "프런트엔드"],
+    "stage": 2,
+    "icon": "LayoutTemplate",
+    "chip": "보이는 앞단",
+    "definition": "사용자가 직접 보고 누르는 화면 부분이에요. HTML·CSS·JavaScript로 만들어요.",
+    "analogy": "손님이 보는 메뉴판과 테이블",
+    "example": "버튼, 입력창, 메뉴 같은 화면 요소",
+    "confusableWith": ["backend"],
+    "contrast": "프론트엔드는 손님이 보는 홀, 백엔드는 보이지 않는 주방과 창고예요.",
+    "situation": {
+      "aiSays": "이건 프론트엔드 문제라 서버는 건드리지 않아도 돼요.",
+      "question": "이 말의 뜻은?",
+      "answer": "화면 쪽 코드만 고치면 된다는 뜻",
+      "distractors": [
+        "데이터베이스를 새로 만들어야 한다는 뜻",
+        "서버를 새로 사야 한다는 뜻",
+        "앱을 스토어에 다시 올려야 한다는 뜻"
+      ]
+    },
+    "explainKeywords": ["화면", "사용자"],
+    "vibeTip": "\"화면부터 먼저 만들고 데이터는 가짜로 넣어줘\"",
+    "source": "pdf",
+    "pdfPage": 3
+  },
+  {
+    "id": "html",
+    "term": "HTML",
+    "termFull": "HyperText Markup Language",
+    "aliases": ["html"],
+    "stage": 2,
+    "icon": "FileCode",
+    "chip": "구조",
+    "definition": "제목·글·이미지·버튼이 어디에 무엇이 있는지 정하는 웹페이지의 뼈대 언어예요.",
+    "analogy": "벽돌을 쌓아 방 구조를 잡는 뼈대 공사",
+    "example": "<h1>제목</h1>, <button>버튼</button>",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "HTML 구조를 먼저 잡고 스타일은 나중에 입힐게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "화면에 들어갈 요소 배치부터 하고 꾸미기는 뒤에 한다는 뜻",
+      "distractors": ["색부터 칠한다는 뜻", "서버부터 만든다는 뜻", "데이터베이스부터 만든다는 뜻"]
+    },
+    "explainKeywords": ["구조", "뼈대", "배치"],
+    "vibeTip": "\"꾸미지 말고 구조만 먼저 만들어줘\"",
+    "source": "pdf",
+    "pdfPage": 3
+  },
+  {
+    "id": "css",
+    "term": "CSS",
+    "termFull": "Cascading Style Sheets",
+    "aliases": ["css"],
+    "stage": 2,
+    "icon": "Palette",
+    "chip": "꾸미기",
+    "definition": "색·크기·간격·글꼴을 정해서 뼈대를 보기 좋게 꾸미는 언어예요.",
+    "analogy": "벽지·조명·가구로 꾸미는 인테리어",
+    "example": "버튼을 파란색으로, 글자를 크게",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "CSS에서 여백 값을 줄여서 간격 문제를 고쳤어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "화면 꾸밈 설정을 바꿔 요소 사이 간격을 조정했다는 뜻",
+      "distractors": [
+        "서버 저장 공간을 줄였다는 뜻",
+        "기능을 삭제했다는 뜻",
+        "데이터를 압축했다는 뜻"
+      ]
+    },
+    "explainKeywords": ["색", "크기", "꾸미"],
+    "vibeTip": "\"기능은 그대로 두고 버튼 간격만 넓혀줘\"",
+    "source": "pdf",
+    "pdfPage": 3
+  },
+  {
+    "id": "javascript",
+    "term": "JavaScript",
+    "termFull": "자바스크립트",
+    "aliases": ["javascript", "js", "자바스크립트"],
+    "stage": 2,
+    "icon": "MousePointerClick",
+    "chip": "동작",
+    "definition": "버튼을 누르면 창이 뜨거나 내용이 바뀌는 등 화면이 움직이게 만드는 언어예요.",
+    "analogy": "스위치를 누르면 불이 켜지는 자동화 시스템",
+    "example": "좋아요를 누르면 숫자가 1 올라가는 기능",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "클릭 이벤트가 연결되지 않아서 버튼이 반응하지 않았어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "버튼을 눌렀을 때 실행될 동작이 코드로 이어져 있지 않았다는 뜻",
+      "distractors": ["버튼 색이 잘못됐다는 뜻", "서버 주소가 틀렸다는 뜻", "글꼴이 없다는 뜻"]
+    },
+    "explainKeywords": ["동작", "클릭", "움직"],
+    "vibeTip": "\"이 버튼 누르면 창이 열리게 해줘\"",
+    "source": "pdf",
+    "pdfPage": 3
+  },
+  {
+    "id": "component",
+    "term": "컴포넌트",
+    "termFull": "Component",
+    "aliases": ["component", "컴포넌트"],
+    "stage": 2,
+    "icon": "Puzzle",
+    "chip": "화면 조각",
+    "definition": "버튼·카드·메뉴처럼 여러 곳에서 다시 쓸 수 있게 따로 만든 화면 조각이에요.",
+    "analogy": "여러 작품에 다시 쓰는 레고 블록",
+    "example": "모든 페이지에 들어가는 상단 메뉴",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "같은 모양이 반복돼서 Card 컴포넌트로 분리했어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "반복되는 화면 부분을 재사용할 수 있는 조각으로 따로 뺐다는 뜻",
+      "distractors": [
+        "카드 결제 기능을 추가했다는 뜻",
+        "화면을 삭제했다는 뜻",
+        "서버를 두 대로 늘렸다는 뜻"
+      ]
+    },
+    "explainKeywords": ["재사용", "조각"],
+    "vibeTip": "\"반복되는 부분은 컴포넌트로 나눠줘\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "responsive",
+    "term": "반응형 디자인",
+    "termFull": "Responsive Design",
+    "aliases": ["반응형", "responsive", "반응형디자인"],
+    "stage": 2,
+    "icon": "Smartphone",
+    "chip": "화면 크기 대응",
+    "definition": "휴대폰·태블릿·PC처럼 화면 크기가 달라도 배치가 알맞게 바뀌는 디자인이에요.",
+    "analogy": "담는 그릇 모양에 맞춰 모양이 바뀌는 물",
+    "example": "PC에선 3칸, 휴대폰에선 1칸으로 보이는 목록",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "모바일에서 가로 스크롤이 생겨서 반응형으로 수정했어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "휴대폰 화면 폭에도 내용이 맞게 들어가도록 고쳤다는 뜻",
+      "distractors": [
+        "앱 반응 속도를 빠르게 했다는 뜻",
+        "알림을 보내게 했다는 뜻",
+        "서버 응답을 바꿨다는 뜻"
+      ]
+    },
+    "explainKeywords": ["화면 크기", "배치"],
+    "vibeTip": "\"휴대폰에서도 깨지지 않게 만들어줘\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "react",
+    "term": "React / Next.js",
+    "termFull": "리액트 / 넥스트",
+    "aliases": ["react", "리액트", "nextjs", "next.js", "넥스트", "react/next.js"],
+    "stage": 2,
+    "icon": "Atom",
+    "chip": "화면 제작 도구",
+    "definition": "화면 조각을 조립해서 웹앱을 만드는 인기 도구예요. Next.js는 여기에 페이지 이동·서버 기능을 더한 것이에요.",
+    "analogy": "부품이 다 들어 있는 조립식 가구 키트",
+    "example": "AI에게 웹앱을 만들어 달라고 하면 가장 자주 쓰는 조합",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "Next.js로 프로젝트를 만들고 페이지는 app 폴더에 둘게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "웹앱 제작 도구로 틀을 만들고 페이지 파일을 정해진 폴더에 둔다는 뜻",
+      "distractors": [
+        "앱을 스토어에 올린다는 뜻",
+        "데이터베이스를 설치한다는 뜻",
+        "디자인 시안만 만든다는 뜻"
+      ]
+    },
+    "explainKeywords": ["화면", "조립", "도구"],
+    "vibeTip": "\"React로 만들어줘\"처럼 도구를 정해 주면 결과가 안정적이에요.",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "backend",
+    "term": "백엔드",
+    "termFull": "Backend",
+    "aliases": ["backend", "백엔드", "백앤드"],
+    "stage": 3,
+    "icon": "Cog",
+    "chip": "보이지 않는 뒷단",
+    "definition": "화면 뒤에서 데이터를 처리하고 저장하는 부분이에요. 서버와 데이터베이스가 여기에 있어요.",
+    "analogy": "손님에게 보이지 않는 주방과 창고",
+    "example": "회원가입 정보를 저장하고 로그인을 확인하는 부분",
+    "confusableWith": ["frontend"],
+    "contrast": "프론트엔드는 손님이 보는 홀, 백엔드는 보이지 않는 주방과 창고예요.",
+    "situation": {
+      "aiSays": "결제 금액 계산은 백엔드에서 해야 해요.",
+      "question": "이 말의 뜻은?",
+      "answer": "금액 계산을 사용자 화면이 아닌 서버 쪽에서 해야 안전하다는 뜻",
+      "distractors": [
+        "결제 버튼을 화면 뒤쪽에 숨긴다는 뜻",
+        "결제 기능을 삭제한다는 뜻",
+        "화면 디자인을 바꾼다는 뜻"
+      ]
+    },
+    "explainKeywords": ["처리", "저장", "서버"],
+    "vibeTip": "\"이 기능에 필요한 서버 쪽 코드도 같이 만들어줘\"",
+    "source": "pdf",
+    "pdfPage": 3
+  },
+  {
+    "id": "web-server",
+    "term": "웹 서버",
+    "termFull": "Web Server",
+    "aliases": ["웹서버", "webserver", "web server"],
+    "stage": 3,
+    "icon": "Files",
+    "chip": "정적 파일 전달",
+    "definition": "미리 만들어 둔 파일(HTML·이미지)을 요청받은 그대로 전달하는 서버예요. 예: Nginx, Apache",
+    "analogy": "준비된 메뉴판만 건네주는 홀 직원",
+    "example": "회사 소개 페이지처럼 누가 봐도 똑같은 페이지",
+    "confusableWith": ["was"],
+    "contrast": "웹 서버는 미리 만든 파일만 건네고, WAS는 요청마다 결과를 새로 만들어요.",
+    "situation": {
+      "aiSays": "이 사이트는 정적 파일뿐이라 웹 서버만 있으면 돼요.",
+      "question": "이 말의 뜻은?",
+      "answer": "미리 만든 파일을 그대로 보여 주면 되니 복잡한 처리 서버는 필요 없다는 뜻",
+      "distractors": [
+        "데이터베이스가 꼭 필요하다는 뜻",
+        "앱을 따로 만들어야 한다는 뜻",
+        "인터넷 없이도 된다는 뜻"
+      ]
+    },
+    "explainKeywords": ["미리", "파일", "그대로"],
+    "vibeTip": "\"정적 사이트로 만들어서 무료로 배포해줘\"",
+    "source": "pdf",
+    "pdfPage": 4
+  },
+  {
+    "id": "was",
+    "term": "WAS",
+    "termFull": "Web Application Server (애플리케이션 서버)",
+    "aliases": ["was", "애플리케이션서버", "와스"],
+    "stage": 3,
+    "icon": "ChefHat",
+    "chip": "동적 처리",
+    "definition": "요청에 따라 실시간으로 결과를 만들어 내는 서버예요. 예: Node.js, Tomcat",
+    "analogy": "주문이 들어오면 그때그때 요리하는 요리사",
+    "example": "로그인하면 '○○님 안녕하세요'가 뜨는 화면을 만드는 곳",
+    "confusableWith": ["web-server"],
+    "contrast": "웹 서버는 미리 만든 파일만 건네고, WAS는 요청마다 결과를 새로 만들어요.",
+    "situation": {
+      "aiSays": "이 계산 로직은 브라우저가 아니라 서버(WAS)에서 처리해야 안전해요.",
+      "question": "AI가 하려는 말은?",
+      "answer": "계산을 사용자 화면이 아닌 서버 쪽 코드에서 하겠다는 뜻",
+      "distractors": [
+        "계산 결과를 이미지 파일로 저장하겠다는 뜻",
+        "웹사이트를 다른 주소로 옮기겠다는 뜻",
+        "계산 기능을 삭제하겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["요청", "실시간", "만들"],
+    "vibeTip": "\"이 기능은 서버 쪽에서 처리해줘\"라고 말할 수 있어요.",
+    "source": "pdf",
+    "pdfPage": 4
+  },
+  {
+    "id": "three-tier",
+    "term": "3계층 구조",
+    "termFull": "3-tier Architecture",
+    "aliases": ["3계층", "3tier", "3계층구조", "삼계층"],
+    "stage": 3,
+    "icon": "Layers",
+    "chip": "전체 연결",
+    "definition": "화면 → 입구(API) → 처리(백엔드) → 저장(DB)으로 역할을 나눠 차례로 연결한 서비스 구조예요.",
+    "analogy": "손님 → 웨이터 → 요리사 → 창고로 이어지는 식당",
+    "example": "좋아요 버튼 → POST /likes → 로그인 확인 → DB에 기록",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "화면 코드에서 DB에 직접 접근하지 말고 API를 거치게 바꿀게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "화면-입구-처리-저장 순서로 역할을 나눠 안전하게 연결하겠다는 뜻",
+      "distractors": [
+        "데이터베이스를 삭제하겠다는 뜻",
+        "화면을 세 개로 나누겠다는 뜻",
+        "서버를 세 대 사겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["화면", "API", "DB", "나눠"],
+    "vibeTip": "\"화면·API·DB가 어떻게 연결되는지 그림으로 설명해줘\"",
+    "source": "pdf",
+    "pdfPage": 14
+  },
+  {
+    "id": "scale-up",
+    "term": "스케일 업",
+    "termFull": "Scale Up",
+    "aliases": ["스케일업", "scaleup", "scale up"],
+    "stage": 3,
+    "icon": "ChevronsUp",
+    "chip": "성능 올리기",
+    "definition": "서버 한 대의 CPU·메모리를 더 좋은 것으로 바꿔 성능을 올리는 방법이에요.",
+    "analogy": "요리사 한 명에게 더 좋은 도구를 주어 빨리 만들게 하기",
+    "example": "작은 서버를 더 비싼 큰 서버로 교체",
+    "confusableWith": ["scale-out"],
+    "contrast": "스케일 업은 한 대를 더 강하게, 스케일 아웃은 여러 대로 나눠요.",
+    "situation": {
+      "aiSays": "지금은 접속이 적으니 서버 사양만 올리는 게 간단해요.",
+      "question": "이 말의 뜻은?",
+      "answer": "서버를 늘리지 말고 한 대의 성능만 높이자는 뜻",
+      "distractors": ["서버를 여러 대로 늘리자는 뜻", "앱 버전을 올리자는 뜻", "가격을 올리자는 뜻"]
+    },
+    "explainKeywords": ["한 대", "성능"],
+    "vibeTip": "\"사용자가 늘면 어떻게 확장할지 알려줘\"",
+    "source": "pdf",
+    "pdfPage": 8
+  },
+  {
+    "id": "scale-out",
+    "term": "스케일 아웃",
+    "termFull": "Scale Out",
+    "aliases": ["스케일아웃", "scaleout", "scale out"],
+    "stage": 3,
+    "icon": "Boxes",
+    "chip": "대수 늘리기",
+    "definition": "같은 서버를 여러 대로 늘려 요청을 나눠 처리하는 방법이에요. 보통 요청 분배 장치와 함께 써요.",
+    "analogy": "요리사를 여러 명 고용하기",
+    "example": "이벤트 날 서버를 2대에서 10대로 늘리기",
+    "confusableWith": ["scale-up"],
+    "contrast": "스케일 업은 한 대를 더 강하게, 스케일 아웃은 여러 대로 나눠요.",
+    "situation": {
+      "aiSays": "접속이 몰릴 때 서버 대수가 자동으로 늘어나게 설정했어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "사용자가 많아지면 같은 서버를 여러 대로 늘려 나눠 받게 했다는 뜻",
+      "distractors": [
+        "서버 한 대의 부품을 바꿨다는 뜻",
+        "접속을 막았다는 뜻",
+        "화면 크기를 키웠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["여러 대", "나눠"],
+    "vibeTip": "\"접속이 몰리면 자동으로 늘어나게 해줘\"",
+    "source": "pdf",
+    "pdfPage": 8
+  },
+  {
+    "id": "database",
+    "term": "데이터베이스",
+    "termFull": "Database (DB)",
+    "aliases": ["db", "database", "데이터베이스", "디비"],
+    "stage": 4,
+    "icon": "Database",
+    "chip": "안전한 저장소",
+    "definition": "회원·게시글·주문 같은 정보를 안전하게 저장하고 빠르게 찾을 수 있게 관리하는 곳이에요.",
+    "analogy": "재료를 보관하고 꺼내 주는 창고(냉장고)",
+    "example": "Supabase, Firebase, MySQL",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "새로고침하면 글이 사라지는 건 DB에 저장하지 않았기 때문이에요.",
+      "question": "이 말의 뜻은?",
+      "answer": "작성한 내용을 영구 저장소에 기록하지 않아서 다시 불러올 수 없다는 뜻",
+      "distractors": ["디자인이 깨졌다는 뜻", "인터넷이 느리다는 뜻", "도메인이 없다는 뜻"]
+    },
+    "explainKeywords": ["저장", "관리", "찾"],
+    "vibeTip": "\"글이 새로고침해도 남도록 DB에 저장해줘\"",
+    "source": "pdf",
+    "pdfPage": 4
+  },
+  {
+    "id": "sql",
+    "term": "SQL",
+    "termFull": "Structured Query Language",
+    "aliases": ["sql", "에스큐엘", "시퀄"],
+    "stage": 4,
+    "icon": "ScrollText",
+    "chip": "DB 명령어",
+    "definition": "데이터베이스에 '찾아 줘·저장해 줘·지워 줘'라고 명령할 때 쓰는 전용 언어예요.",
+    "analogy": "창고 관리인에게 건네는 정해진 양식의 주문서",
+    "example": "SELECT * FROM users (회원 전체 보여 줘)",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "이 SQL을 실행하면 비활성 회원이 전부 삭제돼요. 실행할까요?",
+      "question": "AI가 확인하려는 것은?",
+      "answer": "데이터베이스에 삭제 명령을 내려도 되는지 확인하는 것",
+      "distractors": [
+        "화면을 새로 그려도 되는지 확인하는 것",
+        "서버를 꺼도 되는지 확인하는 것",
+        "코드를 저장해도 되는지 확인하는 것"
+      ]
+    },
+    "explainKeywords": ["명령", "언어", "데이터베이스"],
+    "vibeTip": "\"이 SQL이 무슨 일을 하는지 한 줄씩 설명해줘\"",
+    "source": "pdf",
+    "pdfPage": 5
+  },
+  {
+    "id": "rdb",
+    "term": "관계형 DB",
+    "termFull": "RDB (Relational Database)",
+    "aliases": ["rdb", "관계형db", "관계형데이터베이스", "관계형"],
+    "stage": 4,
+    "icon": "Table",
+    "chip": "정확성",
+    "definition": "엑셀 표처럼 정해진 칸에 맞춰 저장하고, 데이터 사이 관계를 정확히 다루는 DB예요. 예: MySQL, PostgreSQL",
+    "analogy": "책이 정확한 자리에 꽂힌 도서관",
+    "example": "회원 표와 주문 표를 회원 번호로 연결",
+    "confusableWith": ["nosql"],
+    "contrast": "관계형 DB는 칸이 정해진 도서관, NoSQL은 자유롭게 적는 메모장이에요.",
+    "situation": {
+      "aiSays": "주문과 회원이 서로 연결돼야 하니 PostgreSQL 같은 관계형 DB가 좋아요.",
+      "question": "이 말의 뜻은?",
+      "answer": "서로 연결된 정보를 표 형태로 정확하게 다루는 DB를 추천한다는 뜻",
+      "distractors": [
+        "형식 없이 빨리 적는 DB를 추천한다는 뜻",
+        "DB 없이 만들자는 뜻",
+        "엑셀 파일로 대신하자는 뜻"
+      ]
+    },
+    "explainKeywords": ["표", "칸", "관계"],
+    "vibeTip": "\"어떤 표가 필요한지 설계부터 해줘\"",
+    "source": "pdf",
+    "pdfPage": 5
+  },
+  {
+    "id": "nosql",
+    "term": "NoSQL",
+    "termFull": "비관계형 DB",
+    "aliases": ["nosql", "노에스큐엘", "비관계형", "비관계형db"],
+    "stage": 4,
+    "icon": "StickyNote",
+    "chip": "유연성",
+    "definition": "정해진 칸 없이 문서처럼 자유로운 형태로 저장하는 DB예요. 빠르고 구조를 바꾸기 쉬워요. 예: MongoDB, Firestore",
+    "analogy": "형식 없이 빠르게 적는 메모장",
+    "example": "채팅 메시지처럼 형태가 자주 바뀌는 데이터",
+    "confusableWith": ["rdb"],
+    "contrast": "관계형 DB는 칸이 정해진 도서관, NoSQL은 자유롭게 적는 메모장이에요.",
+    "situation": {
+      "aiSays": "데이터 형태가 자주 바뀌니 Firestore 같은 NoSQL이 편할 거예요.",
+      "question": "이 말의 뜻은?",
+      "answer": "칸을 미리 정하지 않고 자유롭게 저장하는 DB가 편하다는 뜻",
+      "distractors": [
+        "SQL 언어로만 쓰는 DB라는 뜻",
+        "저장이 안 되는 DB라는 뜻",
+        "칸이 고정된 표 형태 DB라는 뜻"
+      ]
+    },
+    "explainKeywords": ["자유", "문서", "유연"],
+    "vibeTip": "\"이 데이터엔 표 형태 DB와 문서 형태 DB 중 뭐가 맞는지 비교해줘\"",
+    "source": "pdf",
+    "pdfPage": 5
+  },
+  {
+    "id": "crud",
+    "term": "CRUD",
+    "termFull": "Create · Read · Update · Delete",
+    "aliases": ["crud", "크러드"],
+    "stage": 4,
+    "icon": "ListChecks",
+    "chip": "기본 4동작",
+    "definition": "데이터를 만들고, 읽고, 고치고, 지우는 네 가지 기본 동작이에요.",
+    "analogy": "게시판에 글 쓰기·읽기·고치기·지우기",
+    "example": "할 일 앱: 추가·목록 보기·수정·삭제",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "게시글 CRUD를 모두 만들었어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "글 작성·조회·수정·삭제 기능을 전부 만들었다는 뜻",
+      "distractors": [
+        "게시글 디자인을 완성했다는 뜻",
+        "게시판을 삭제했다는 뜻",
+        "게시글을 암호화했다는 뜻"
+      ]
+    },
+    "explainKeywords": ["생성", "읽기", "수정", "삭제"],
+    "vibeTip": "\"메모 기능의 추가·조회·수정·삭제를 전부 만들어줘\"",
+    "source": "pdf",
+    "pdfPage": 13
+  },
+  {
+    "id": "api",
+    "term": "API",
+    "termFull": "Application Programming Interface",
+    "aliases": ["api", "에이피아이"],
+    "stage": 4,
+    "icon": "Plug",
+    "chip": "주문 약속",
+    "definition": "프로그램끼리 '이렇게 요청하면 이것을 돌려준다'고 정해 둔 약속이에요.",
+    "analogy": "손님 주문을 주방에 전달하는 웨이터",
+    "example": "날씨 앱이 기상 데이터를 받아 오는 통로",
+    "confusableWith": ["rest-api"],
+    "contrast": "API는 주고받는 약속 전체, REST API는 그중 주소·동사 규칙을 따르는 방식이에요.",
+    "situation": {
+      "aiSays": "날씨 정보는 외부 API로 받아 올게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "다른 서비스가 정해 둔 요청 방법으로 날씨 데이터를 가져오겠다는 뜻",
+      "distractors": [
+        "날씨를 직접 측정하겠다는 뜻",
+        "날씨 앱을 새로 설치하겠다는 뜻",
+        "날씨 그림을 그리겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["요청", "약속", "프로그램"],
+    "vibeTip": "\"이 기능에 필요한 API 목록부터 정리해줘\"",
+    "source": "pdf",
+    "pdfPage": 13
+  },
+  {
+    "id": "rest-api",
+    "term": "REST API",
+    "termFull": "REST 규칙을 따르는 API",
+    "aliases": ["rest", "restapi", "레스트", "레스트api"],
+    "stage": 4,
+    "icon": "Route",
+    "chip": "API 규칙",
+    "definition": "주소(URL)는 명사로, 동작은 GET·POST 같은 메서드로 표현하는 가장 널리 쓰는 작성 규칙이에요.",
+    "analogy": "모두가 똑같이 쓰는 정해진 주문서 양식",
+    "example": "GET /posts (글 목록), POST /posts (글 쓰기)",
+    "confusableWith": ["api"],
+    "contrast": "API는 주고받는 약속 전체, REST API는 그중 주소·동사 규칙을 따르는 방식이에요.",
+    "situation": {
+      "aiSays": "주소를 /getPosts 대신 GET /posts로 바꿔 규칙에 맞췄어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "주소는 명사로, 동작은 메서드로 표현하는 규칙에 맞게 정리했다는 뜻",
+      "distractors": [
+        "서버를 쉬게 했다는 뜻",
+        "글을 전부 삭제했다는 뜻",
+        "주소를 비밀로 바꿨다는 뜻"
+      ]
+    },
+    "explainKeywords": ["주소", "명사", "메서드"],
+    "vibeTip": "\"REST 규칙에 맞게 주소 설계해줘\"",
+    "source": "pdf",
+    "pdfPage": 6
+  },
+  {
+    "id": "http-methods",
+    "term": "HTTP 메서드",
+    "termFull": "GET · POST · PUT · DELETE",
+    "aliases": ["http메서드", "메서드", "method", "httpmethod"],
+    "stage": 4,
+    "icon": "Signpost",
+    "chip": "요청 동사",
+    "definition": "서버에 무엇을 하고 싶은지 알려 주는 동사예요. GET(조회), POST(생성), PUT(수정), DELETE(삭제)",
+    "analogy": "'보여 주세요·만들어 주세요·바꿔 주세요·치워 주세요' 같은 주문 동사",
+    "example": "회원가입 = POST /users",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "수정 요청인데 POST를 써서 글이 하나 더 생겼어요. PUT으로 바꿀게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "'새로 만들기' 동사 대신 '고치기' 동사로 요청을 바꾸겠다는 뜻",
+      "distractors": ["우편으로 보내겠다는 뜻", "글을 전부 지우겠다는 뜻", "서버를 바꾸겠다는 뜻"]
+    },
+    "explainKeywords": ["조회", "생성", "수정", "삭제"],
+    "vibeTip": "\"각 API가 어떤 메서드를 쓰는지 표로 보여줘\"",
+    "source": "pdf",
+    "pdfPage": 6
+  },
+  {
+    "id": "json",
+    "term": "JSON",
+    "termFull": "JavaScript Object Notation",
+    "aliases": ["json", "제이슨"],
+    "stage": 4,
+    "icon": "Braces",
+    "chip": "데이터 양식",
+    "definition": "{ \"이름\": \"민지\" }처럼 이름과 값을 짝지어 적는, 데이터를 주고받을 때 쓰는 텍스트 형식이에요.",
+    "analogy": "빈칸이 정해진 택배 송장 양식",
+    "example": "{ \"title\": \"첫 글\", \"likes\": 3 }",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "서버가 JSON 대신 에러 페이지를 보내서 읽지 못했어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "약속한 데이터 양식이 아닌 다른 형식이 와서 해석에 실패했다는 뜻",
+      "distractors": ["사람 이름이 잘못됐다는 뜻", "이미지가 깨졌다는 뜻", "비밀번호가 틀렸다는 뜻"]
+    },
+    "explainKeywords": ["이름", "값", "형식"],
+    "vibeTip": "\"응답 데이터 예시를 JSON으로 먼저 보여줘\"",
+    "source": "pdf",
+    "pdfPage": 11
+  },
+  {
+    "id": "jwt",
+    "term": "토큰 / JWT",
+    "termFull": "JSON Web Token (로그인 토큰)",
+    "aliases": ["jwt", "토큰", "token", "로그인토큰", "토큰/jwt"],
+    "stage": 4,
+    "icon": "KeyRound",
+    "chip": "로그인 열쇠",
+    "definition": "로그인에 성공하면 서버가 발급해 주는 디지털 출입증이에요. 이걸 보여 줘야 내 정보를 볼 수 있어요.",
+    "analogy": "놀이공원 입장 후 받는 손목밴드",
+    "example": "로그인 유지, 내 정보 페이지 접근",
+    "confusableWith": ["ai-token"],
+    "contrast": "로그인 토큰은 출입증, AI 토큰은 AI가 글을 세는 단위예요. 이름만 같아요.",
+    "situation": {
+      "aiSays": "토큰이 만료돼서 401 에러가 났어요. 다시 로그인하게 할게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "로그인 출입증의 유효 기간이 끝나서 다시 받아야 한다는 뜻",
+      "distractors": [
+        "AI 사용량을 다 썼다는 뜻",
+        "비밀번호를 꼭 바꿔야 한다는 뜻",
+        "서버가 고장 났다는 뜻"
+      ]
+    },
+    "explainKeywords": ["로그인", "발급", "출입증"],
+    "vibeTip": "\"로그인 후 토큰을 안전하게 보관하는 방법 알려줘\"",
+    "source": "pdf",
+    "pdfPage": 6
+  },
+  {
+    "id": "cloud",
+    "term": "클라우드",
+    "termFull": "Cloud",
+    "aliases": ["cloud", "클라우드"],
+    "stage": 5,
+    "icon": "Cloud",
+    "chip": "빌려 쓰는 서버",
+    "definition": "서버를 직접 사지 않고 인터넷으로 필요한 만큼 빌려 쓰는 방식이에요. 예: AWS, GCP, Azure",
+    "analogy": "필요한 만큼만 쓰는 공유 오피스",
+    "example": "Vercel, Supabase도 이런 방식의 서비스예요",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "사용량 기반 요금이라 접속이 늘면 비용도 늘어나요.",
+      "question": "이 말의 뜻은?",
+      "answer": "빌려 쓰는 서버라 쓴 만큼 돈을 낸다는 뜻",
+      "distractors": [
+        "한 번 사면 평생 무료라는 뜻",
+        "하늘에 서버가 있다는 뜻",
+        "인터넷 없이 쓸 수 있다는 뜻"
+      ]
+    },
+    "explainKeywords": ["빌려", "인터넷", "필요한 만큼"],
+    "vibeTip": "\"무료 요금제로 배포할 수 있는 서비스 추천해줘\"",
+    "source": "pdf",
+    "pdfPage": 7
+  },
+  {
+    "id": "docker",
+    "term": "도커",
+    "termFull": "Docker (컨테이너)",
+    "aliases": ["docker", "도커", "컨테이너"],
+    "stage": 5,
+    "icon": "Package",
+    "chip": "환경 포장",
+    "definition": "프로그램과 실행 환경을 상자(컨테이너)에 통째로 담아 어느 컴퓨터에서나 똑같이 돌아가게 하는 도구예요.",
+    "analogy": "재료와 조리법을 한 봉지에 담은 밀키트",
+    "example": "'내 컴퓨터에선 되는데…' 문제를 줄여 줘요",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "Dockerfile을 만들어 두면 서버에서도 똑같은 환경으로 실행돼요.",
+      "question": "이 말의 뜻은?",
+      "answer": "실행 환경을 포장해서 어디서든 같게 돌아가게 하겠다는 뜻",
+      "distractors": [
+        "파일을 압축해 용량을 줄이겠다는 뜻",
+        "배에 서버를 싣는다는 뜻",
+        "코드를 삭제하겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["환경", "상자", "똑같이"],
+    "vibeTip": "\"도커 없이 배포하는 더 쉬운 방법이 있는지 알려줘\"",
+    "source": "pdf",
+    "pdfPage": 7
+  },
+  {
+    "id": "deploy",
+    "term": "배포",
+    "termFull": "Deploy",
+    "aliases": ["deploy", "배포", "디플로이"],
+    "stage": 5,
+    "icon": "Rocket",
+    "chip": "공개하기",
+    "definition": "완성한 코드를 실제 사용자가 접속할 수 있는 서버에 올려 공개하는 것이에요.",
+    "analogy": "완성된 요리를 손님상에 내놓기",
+    "example": "Vercel에 올려 https://내앱.vercel.app 주소 받기",
+    "confusableWith": ["cicd", "commit"],
+    "contrast": "커밋은 내 기록에 저장, 배포는 사용자에게 공개, CI/CD는 테스트부터 공개까지 자동으로 하는 라인이에요.",
+    "situation": {
+      "aiSays": "로컬에서는 잘 되니 이제 배포해서 링크로 확인해 볼까요?",
+      "question": "이 말의 뜻은?",
+      "answer": "내 컴퓨터가 아닌 인터넷에 올려 누구나 접속할 수 있게 하자는 뜻",
+      "distractors": ["코드를 이메일로 보내자는 뜻", "앱을 삭제하자는 뜻", "디자인을 인쇄하자는 뜻"]
+    },
+    "explainKeywords": ["서버", "공개", "사용자"],
+    "vibeTip": "\"Vercel에 배포하는 순서 알려줘\"",
+    "source": "pdf",
+    "pdfPage": 7
+  },
+  {
+    "id": "cicd",
+    "term": "CI/CD",
+    "termFull": "지속적 통합 / 지속적 배포",
+    "aliases": ["cicd", "ci/cd", "ci", "cd"],
+    "stage": 5,
+    "icon": "Workflow",
+    "chip": "자동화",
+    "definition": "코드를 고치면 테스트부터 공개까지 자동으로 진행해 주는 시스템이에요.",
+    "analogy": "사람 손 없이 돌아가는 자동화 공장 라인",
+    "example": "GitHub에 올리면 Vercel이 알아서 새 버전을 공개",
+    "confusableWith": ["deploy"],
+    "contrast": "커밋은 내 기록에 저장, 배포는 사용자에게 공개, CI/CD는 테스트부터 공개까지 자동으로 하는 라인이에요.",
+    "situation": {
+      "aiSays": "CI에서 테스트가 실패해서 배포가 멈췄어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "자동 검사 단계에서 문제가 발견돼 공개가 자동으로 중단됐다는 뜻",
+      "distractors": [
+        "서버 전원이 꺼졌다는 뜻",
+        "사용자가 너무 많다는 뜻",
+        "도메인이 만료됐다는 뜻"
+      ]
+    },
+    "explainKeywords": ["자동", "테스트", "배포"],
+    "vibeTip": "\"테스트를 통과해야만 배포되게 설정해줘\"",
+    "source": "pdf",
+    "pdfPage": 7
+  },
+  {
+    "id": "load-balancer",
+    "term": "로드 밸런서",
+    "termFull": "Load Balancer",
+    "aliases": ["로드밸런서", "loadbalancer", "lb"],
+    "stage": 5,
+    "icon": "Scale",
+    "chip": "부하 분산",
+    "definition": "몰려드는 요청을 여러 서버에 골고루 나눠 주는 장치예요. 한 서버만 과부하로 멈추는 걸 막아요.",
+    "analogy": "손님을 여러 계산대 줄로 나누는 마트 직원",
+    "example": "서버 3대 앞에서 요청을 차례로 배분",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "서버를 늘렸으니 앞에 로드 밸런서를 둬야 요청이 나뉘어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "여러 서버에 요청을 골고루 보내는 분배 장치가 필요하다는 뜻",
+      "distractors": [
+        "서버 무게를 재야 한다는 뜻",
+        "요청을 모두 막아야 한다는 뜻",
+        "서버를 한 대로 줄여야 한다는 뜻"
+      ]
+    },
+    "explainKeywords": ["나눠", "여러 서버", "골고루"],
+    "vibeTip": "\"사용자가 많아지면 어떤 구조가 필요한지 그림으로 보여줘\"",
+    "source": "pdf",
+    "pdfPage": 7
+  },
+  {
+    "id": "cdn",
+    "term": "CDN",
+    "termFull": "Content Delivery Network",
+    "aliases": ["cdn", "씨디엔"],
+    "stage": 5,
+    "icon": "Globe",
+    "chip": "가까운 배송",
+    "definition": "이미지·영상 같은 파일을 전 세계 여러 곳에 복사해 두고, 사용자와 가장 가까운 곳에서 보내 주는 서비스예요.",
+    "analogy": "동네마다 있는 배송 캠프",
+    "example": "넷플릭스 영상, 쇼핑몰 상품 이미지",
+    "confusableWith": ["cache"],
+    "contrast": "캐시는 자주 쓰는 것을 가까이 두는 기술 전반, CDN은 파일을 전 세계에 복사해 두는 배송망이에요.",
+    "situation": {
+      "aiSays": "이미지를 CDN으로 옮기면 해외에서도 빨리 떠요.",
+      "question": "이 말의 뜻은?",
+      "answer": "이미지를 여러 지역에 복사해 가까운 곳에서 보내게 하자는 뜻",
+      "distractors": [
+        "이미지를 삭제하자는 뜻",
+        "이미지를 흑백으로 바꾸자는 뜻",
+        "해외 접속을 막자는 뜻"
+      ]
+    },
+    "explainKeywords": ["전 세계", "복사", "가까운"],
+    "vibeTip": "\"이미지 로딩이 느린데 CDN 쓰는 게 좋을까?\"",
+    "source": "pdf",
+    "pdfPage": 7
+  },
+  {
+    "id": "cache",
+    "term": "캐시",
+    "termFull": "Cache",
+    "aliases": ["cache", "캐시", "캐쉬"],
+    "stage": 5,
+    "icon": "Zap",
+    "chip": "빠른 응답",
+    "definition": "자주 쓰는 데이터를 가까운 곳에 미리 저장해 두고 재사용하는 기술이에요. 매번 DB까지 가지 않아 빨라져요.",
+    "analogy": "자주 보는 책을 책꽂이 대신 책상 위에 두기",
+    "example": "한 번 본 사진이 두 번째엔 바로 뜨는 것",
+    "confusableWith": ["cdn"],
+    "contrast": "캐시는 자주 쓰는 것을 가까이 두는 기술 전반, CDN은 파일을 전 세계에 복사해 두는 배송망이에요.",
+    "situation": {
+      "aiSays": "수정했는데 안 바뀌어 보이면 브라우저 캐시 때문일 수 있어요. 강력 새로고침해 보세요.",
+      "question": "이 말의 뜻은?",
+      "answer": "예전에 저장해 둔 사본이 보이는 중이라 새로 받아와야 한다는 뜻",
+      "distractors": ["코드가 사라졌다는 뜻", "서버가 해킹됐다는 뜻", "돈을 결제해야 한다는 뜻"]
+    },
+    "explainKeywords": ["자주", "미리", "저장"],
+    "vibeTip": "\"자주 바뀌지 않는 데이터는 저장해 두고 재사용해서 빠르게 해줘\"",
+    "source": "pdf",
+    "pdfPage": 6
+  },
+  {
+    "id": "native-app",
+    "term": "네이티브 앱",
+    "termFull": "Native App",
+    "aliases": ["네이티브", "native", "네이티브앱"],
+    "stage": 6,
+    "icon": "Cpu",
+    "chip": "최고 성능",
+    "definition": "iOS는 Swift, 안드로이드는 Kotlin처럼 운영체제마다 전용 언어로 따로 만드는 앱이에요. 성능이 가장 좋아요.",
+    "analogy": "몸에 딱 맞춘 맞춤 정장",
+    "example": "3D 게임, 금융 앱",
+    "confusableWith": ["hybrid-app", "pwa"],
+    "contrast": "네이티브는 운영체제별로 따로(최고 성능), 하이브리드는 코드 하나로 둘 다(가성비), PWA는 설치 없는 웹앱이에요.",
+    "situation": {
+      "aiSays": "카메라 기능을 깊게 쓰려면 네이티브로 만드는 게 좋아요.",
+      "question": "이 말의 뜻은?",
+      "answer": "기기 기능을 최대로 쓰려면 운영체제 전용으로 따로 만들라는 뜻",
+      "distractors": [
+        "웹사이트로만 만들라는 뜻",
+        "앱을 만들지 말라는 뜻",
+        "카메라를 새로 사라는 뜻"
+      ]
+    },
+    "explainKeywords": ["운영체제", "전용", "성능"],
+    "vibeTip": "\"내 아이디어엔 네이티브·하이브리드·PWA 중 뭐가 맞아?\"",
+    "source": "pdf",
+    "pdfPage": 10
+  },
+  {
+    "id": "hybrid-app",
+    "term": "하이브리드 앱",
+    "termFull": "Hybrid App (크로스플랫폼)",
+    "aliases": ["하이브리드", "hybrid", "하이브리드앱", "크로스플랫폼"],
+    "stage": 6,
+    "icon": "Split",
+    "chip": "가성비",
+    "definition": "코드 하나로 iOS와 안드로이드 앱을 함께 만드는 방식이에요. 예: React Native, Flutter",
+    "analogy": "사이즈만 조절하는 기성복",
+    "example": "쇼핑몰·SNS·배달 앱",
+    "confusableWith": ["native-app", "pwa"],
+    "contrast": "네이티브는 운영체제별로 따로(최고 성능), 하이브리드는 코드 하나로 둘 다(가성비), PWA는 설치 없는 웹앱이에요.",
+    "situation": {
+      "aiSays": "React Native로 만들면 아이폰과 안드로이드를 한 번에 낼 수 있어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "코드 하나로 두 운영체제 앱을 동시에 만들 수 있다는 뜻",
+      "distractors": [
+        "아이폰에서만 된다는 뜻",
+        "웹사이트라서 설치가 필요 없다는 뜻",
+        "앱 두 개를 따로 코딩한다는 뜻"
+      ]
+    },
+    "explainKeywords": ["코드 하나", "iOS", "안드로이드"],
+    "vibeTip": "\"Flutter와 React Native 중 초보에게 쉬운 건?\"",
+    "source": "pdf",
+    "pdfPage": 10
+  },
+  {
+    "id": "pwa",
+    "term": "PWA",
+    "termFull": "Progressive Web App (웹앱)",
+    "aliases": ["pwa", "웹앱", "피더블유에이"],
+    "stage": 6,
+    "icon": "AppWindow",
+    "chip": "설치 불필요",
+    "definition": "웹사이트인데 홈 화면에 추가하면 앱처럼 쓸 수 있는 방식이에요. 스토어 심사 없이 바로 써요.",
+    "analogy": "매장 없이 바로 여는 팝업 스토어",
+    "example": "뉴스·블로그·간단한 도구",
+    "confusableWith": ["native-app", "hybrid-app"],
+    "contrast": "네이티브는 운영체제별로 따로(최고 성능), 하이브리드는 코드 하나로 둘 다(가성비), PWA는 설치 없는 웹앱이에요.",
+    "situation": {
+      "aiSays": "PWA로 만들면 스토어 심사 없이 바로 홈 화면에 추가할 수 있어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "웹사이트를 앱처럼 설치해 쓰게 해서 스토어 등록이 필요 없다는 뜻",
+      "distractors": [
+        "앱스토어에 꼭 올려야 한다는 뜻",
+        "아이폰 전용이라는 뜻",
+        "인터넷이 전혀 필요 없다는 뜻"
+      ]
+    },
+    "explainKeywords": ["웹", "설치", "앱처럼"],
+    "vibeTip": "\"이 웹사이트를 홈 화면에 추가할 수 있게 만들어줘\"",
+    "source": "pdf",
+    "pdfPage": 10
+  },
+  {
+    "id": "push",
+    "term": "푸시 알림",
+    "termFull": "Push Notification",
+    "aliases": ["푸시", "push", "푸쉬", "푸시알림"],
+    "stage": 6,
+    "icon": "Bell",
+    "chip": "알림 보내기",
+    "definition": "앱이 꺼져 있어도 서버가 사용자 기기로 알림을 보내는 기능이에요. 예: FCM, APNs",
+    "analogy": "문 앞에서 누르는 초인종",
+    "example": "\"주문하신 음식이 출발했어요\"",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "푸시를 보내려면 사용자에게 알림 권한을 먼저 받아야 해요.",
+      "question": "이 말의 뜻은?",
+      "answer": "기기로 알림을 보내기 전에 사용자의 허락이 필요하다는 뜻",
+      "distractors": [
+        "화면을 밀어야 한다는 뜻",
+        "이메일 주소가 필요하다는 뜻",
+        "앱을 삭제해야 한다는 뜻"
+      ]
+    },
+    "explainKeywords": ["알림", "꺼져", "서버"],
+    "vibeTip": "\"매일 아침 복습 알림을 보내게 해줘\"",
+    "source": "pdf",
+    "pdfPage": 11
+  },
+  {
+    "id": "local-storage",
+    "term": "로컬 저장소",
+    "termFull": "Local Storage",
+    "aliases": ["로컬저장소", "localstorage", "로컬스토리지"],
+    "stage": 6,
+    "icon": "HardDrive",
+    "chip": "기기에 저장",
+    "definition": "서버가 아닌 사용자 기기(브라우저·폰) 안에 데이터를 저장하는 곳이에요. 인터넷이 없어도 볼 수 있어요.",
+    "analogy": "내 가방 속 수첩",
+    "example": "장바구니, 이 앱의 학습 기록",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "지금은 기기에만 기록해서, 다른 기기에서는 기록이 안 보여요.",
+      "question": "이 말의 뜻은?",
+      "answer": "기록이 이 기기 안에만 있어서 다른 기기와 공유되지 않는다는 뜻",
+      "distractors": [
+        "기록이 서버에 백업됐다는 뜻",
+        "기록이 삭제됐다는 뜻",
+        "인터넷이 꼭 필요하다는 뜻"
+      ]
+    },
+    "explainKeywords": ["기기", "저장", "인터넷"],
+    "vibeTip": "\"로그인 없이 브라우저에 저장되게 해줘\"",
+    "source": "pdf",
+    "pdfPage": 11
+  },
+  {
+    "id": "vibe-coding",
+    "term": "바이브코딩",
+    "termFull": "Vibe Coding",
+    "aliases": ["바이브코딩", "vibecoding", "바이브"],
+    "stage": 7,
+    "icon": "Sparkles",
+    "chip": "말로 만들기",
+    "definition": "만들고 싶은 것을 말로 설명하면 AI가 코드를 만들고, 결과를 보며 대화로 고쳐 나가는 개발 방식이에요.",
+    "analogy": "건축가에게 원하는 집을 설명하는 집주인",
+    "example": "\"할 일 앱 만들어줘\" → 결과 확인 → \"완료 항목은 회색으로\"",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "원하는 결과를 구체적으로 알려 주시면 한 번에 더 정확히 만들 수 있어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "설명이 자세할수록 AI가 만드는 결과가 정확해진다는 뜻",
+      "distractors": [
+        "코드를 직접 외워야 한다는 뜻",
+        "음악을 틀어야 한다는 뜻",
+        "AI가 스스로 아이디어를 낸다는 뜻"
+      ]
+    },
+    "explainKeywords": ["말", "AI", "코드"],
+    "vibeTip": "만들 것·쓸 사람·꼭 필요한 기능을 함께 말해 주세요.",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "llm",
+    "term": "LLM",
+    "termFull": "Large Language Model (대형 언어 모델)",
+    "aliases": ["llm", "대형언어모델", "엘엘엠"],
+    "stage": 7,
+    "icon": "Brain",
+    "chip": "AI의 두뇌",
+    "definition": "엄청난 양의 글을 학습해서 다음에 올 말을 예측하는 AI 모델이에요. Claude, GPT가 여기에 속해요.",
+    "analogy": "세상의 책을 엄청 많이 읽은 조수",
+    "example": "바이브코딩 도구 안에서 코드를 쓰는 주체",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "모델마다 잘하는 게 달라서, 긴 코드 작업엔 더 큰 모델을 추천해요.",
+      "question": "이 말의 뜻은?",
+      "answer": "AI 두뇌의 종류에 따라 성능 차이가 있다는 뜻",
+      "distractors": [
+        "컴퓨터 부품을 바꾸라는 뜻",
+        "인터넷 요금제를 올리라는 뜻",
+        "화면을 크게 하라는 뜻"
+      ]
+    },
+    "explainKeywords": ["학습", "언어", "모델"],
+    "vibeTip": "어려운 작업이면 \"단계별로 신중하게 생각해줘\"라고 요청해 보세요.",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "prompt",
+    "term": "프롬프트",
+    "termFull": "Prompt",
+    "aliases": ["prompt", "프롬프트", "프롬트"],
+    "stage": 7,
+    "icon": "MessageSquareText",
+    "chip": "지시문",
+    "definition": "AI에게 무엇을 해 달라고 입력하는 지시문이에요. 바이브코딩에서 가장 중요한 기술이에요.",
+    "analogy": "요리사에게 건네는 주문서",
+    "example": "\"로그인 페이지를 만들어줘. 이메일·비밀번호 입력칸, 버튼은 검정\"",
+    "confusableWith": ["context"],
+    "contrast": "프롬프트는 '무엇을 해 줘'라는 지시, 컨텍스트는 AI가 참고하는 배경 자료예요.",
+    "situation": {
+      "aiSays": "요청이 모호해서 두 가지로 해석될 수 있어요. 어느 쪽인가요?",
+      "question": "이 말의 뜻은?",
+      "answer": "지시문이 명확하지 않아 AI가 확인을 요청한다는 뜻",
+      "distractors": ["AI가 고장 났다는 뜻", "인터넷이 느리다는 뜻", "요금을 더 내야 한다는 뜻"]
+    },
+    "explainKeywords": ["AI", "지시", "입력"],
+    "vibeTip": "좋은 지시문 = 목표 + 조건 + 예시 + 하지 말 것",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "context",
+    "term": "컨텍스트",
+    "termFull": "Context (맥락)",
+    "aliases": ["context", "컨텍스트", "맥락"],
+    "stage": 7,
+    "icon": "FolderOpen",
+    "chip": "참고 자료",
+    "definition": "AI가 답할 때 함께 참고하는 배경 정보예요. 대화 내용, 첨부한 파일, 프로젝트 코드 등이 들어가요.",
+    "analogy": "회의 전에 미리 건네주는 자료 묶음",
+    "example": "PRD.md를 첨부하고 \"이걸 참고해서 만들어줘\"",
+    "confusableWith": ["prompt"],
+    "contrast": "프롬프트는 '무엇을 해 줘'라는 지시, 컨텍스트는 AI가 참고하는 배경 자료예요.",
+    "situation": {
+      "aiSays": "대화가 너무 길어져서 앞부분 내용을 놓쳤을 수 있어요. 핵심을 다시 알려 주세요.",
+      "question": "이 말의 뜻은?",
+      "answer": "AI가 한 번에 참고할 수 있는 배경 정보의 양에 한계가 있다는 뜻",
+      "distractors": ["AI가 삐졌다는 뜻", "파일이 삭제됐다는 뜻", "요금제가 끝났다는 뜻"]
+    },
+    "explainKeywords": ["참고", "배경", "정보"],
+    "vibeTip": "관련 파일을 첨부하고 \"이 파일을 참고해서\"로 시작해 보세요.",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "ai-token",
+    "term": "토큰 (AI)",
+    "termFull": "AI Token",
+    "aliases": ["ai토큰", "토큰", "token", "토큰(ai)"],
+    "stage": 7,
+    "icon": "Coins",
+    "chip": "AI의 글자 단위",
+    "definition": "AI가 글을 잘게 쪼개 세는 단위예요. 사용량과 요금, 한 번에 다룰 수 있는 양의 기준이 돼요.",
+    "analogy": "글자 조각으로 계산하는 동전",
+    "example": "\"이번 요청에 12,000 토큰을 사용했어요\"",
+    "confusableWith": ["jwt"],
+    "contrast": "로그인 토큰은 출입증, AI 토큰은 AI가 글을 세는 단위예요. 이름만 같아요.",
+    "situation": {
+      "aiSays": "파일이 너무 커서 토큰 한도를 넘었어요. 나눠서 보내 주세요.",
+      "question": "이 말의 뜻은?",
+      "answer": "AI가 한 번에 처리할 수 있는 글의 양을 넘었다는 뜻",
+      "distractors": [
+        "로그인이 만료됐다는 뜻",
+        "저장 공간이 부족하다는 뜻",
+        "비밀번호가 틀렸다는 뜻"
+      ]
+    },
+    "explainKeywords": ["단위", "사용량", "글"],
+    "vibeTip": "큰 파일은 필요한 부분만 잘라서 주면 사용량을 아낄 수 있어요.",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "hallucination",
+    "term": "할루시네이션",
+    "termFull": "Hallucination (환각)",
+    "aliases": ["hallucination", "할루시네이션", "환각"],
+    "stage": 7,
+    "icon": "Ghost",
+    "chip": "그럴듯한 오답",
+    "definition": "AI가 사실이 아닌 내용을 자신 있게 지어내는 현상이에요. 없는 기능이나 패키지를 만들어 내기도 해요.",
+    "analogy": "모르는데 자신만만하게 하는 거짓말",
+    "example": "존재하지 않는 패키지 이름을 설치하라고 안내",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "죄송해요, 제가 말한 그 옵션은 실제로는 없는 기능이었어요.",
+      "question": "무슨 일이 있었던 걸까요?",
+      "answer": "AI가 사실이 아닌 내용을 그럴듯하게 만들어 냈다는 뜻",
+      "distractors": ["AI가 너무 느렸다는 뜻", "인터넷이 끊겼다는 뜻", "코드가 정상이라는 뜻"]
+    },
+    "explainKeywords": ["사실", "지어내", "자신"],
+    "vibeTip": "\"공식 문서 기준으로 확인해줘\", \"확실하지 않으면 모른다고 해줘\"라고 덧붙이세요.",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "ai-agent",
+    "term": "AI 에이전트",
+    "termFull": "AI Agent",
+    "aliases": ["에이전트", "agent", "ai에이전트"],
+    "stage": 7,
+    "icon": "Bot",
+    "chip": "스스로 일하는 AI",
+    "definition": "대답만 하지 않고 파일을 읽고, 코드를 고치고, 명령을 실행하며 목표까지 여러 단계를 스스로 진행하는 AI예요.",
+    "analogy": "심부름을 끝까지 알아서 해 주는 비서",
+    "example": "Claude Code가 테스트를 돌리고 실패한 부분을 직접 고치는 것",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "파일 3개를 수정하고 테스트를 실행할게요. 진행해도 될까요?",
+      "question": "이 말의 뜻은?",
+      "answer": "AI가 직접 여러 작업을 실행하기 전에 허락을 구한다는 뜻",
+      "distractors": [
+        "AI가 질문에 답만 한다는 뜻",
+        "AI가 작업을 거절했다는 뜻",
+        "컴퓨터를 끄겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["스스로", "실행", "여러 단계"],
+    "vibeTip": "작업 범위를 정해 주세요: \"이 폴더만 수정해줘\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "mcp",
+    "term": "MCP",
+    "termFull": "Model Context Protocol",
+    "aliases": ["mcp", "엠씨피"],
+    "stage": 7,
+    "icon": "Cable",
+    "chip": "외부 도구 연결",
+    "definition": "AI가 노션·피그마·깃허브 같은 외부 도구에 연결해 정보를 읽고 쓸 수 있게 해 주는 공통 규격이에요.",
+    "analogy": "어떤 기기든 꽂히는 만능 어댑터(USB-C)",
+    "example": "AI가 노션 문서를 읽고 할 일을 정리",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "피그마 MCP를 연결하면 디자인 파일을 직접 읽어서 코드로 만들 수 있어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "AI가 외부 디자인 도구에 접속할 수 있게 연결하자는 뜻",
+      "distractors": [
+        "피그마를 삭제하자는 뜻",
+        "디자인을 손으로 따라 그리자는 뜻",
+        "컴퓨터를 한 대 더 사자는 뜻"
+      ]
+    },
+    "explainKeywords": ["외부 도구", "연결", "규격"],
+    "vibeTip": "\"이 작업에 연결하면 좋은 도구 추천해줘\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "prd",
+    "term": "PRD / Spec",
+    "termFull": "제품 요구사항 문서 / 명세서",
+    "aliases": ["prd", "spec", "스펙", "명세서", "기획서", "prd/spec"],
+    "stage": 7,
+    "icon": "FileText",
+    "chip": "설계도",
+    "definition": "무엇을, 누구를 위해, 어떤 기능으로 만들지 정리한 기획 문서예요. AI에게 주면 결과가 훨씬 정확해져요.",
+    "analogy": "집을 짓기 전에 그리는 설계도",
+    "example": "이 앱의 PRD.md, spec.md",
+    "confusableWith": ["plan-md"],
+    "contrast": "PRD/Spec은 무엇을 왜 만드는지, plan.md는 이번에 어디까지 어떻게 구현할지를 적어요.",
+    "situation": {
+      "aiSays": "구현 전에 spec.md에 없는 부분이 있어서 먼저 확인할게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "기획 문서에 빠진 내용이 있어 만들기 전에 정하자는 뜻",
+      "distractors": ["디자인이 이상하다는 뜻", "코드를 다 지웠다는 뜻", "배포가 끝났다는 뜻"]
+    },
+    "explainKeywords": ["기획", "기능", "문서"],
+    "vibeTip": "\"코드 짜기 전에 spec.md부터 같이 만들자\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "terminal",
+    "term": "터미널 / CLI",
+    "termFull": "Command Line Interface",
+    "aliases": ["터미널", "terminal", "cli", "명령줄", "콘솔", "터미널/cli"],
+    "stage": 8,
+    "icon": "SquareTerminal",
+    "chip": "글자로 명령",
+    "definition": "마우스 대신 글자로 명령을 입력해서 컴퓨터를 조작하는 창이에요.",
+    "analogy": "컴퓨터와 글로 채팅하기",
+    "example": "npm run dev 를 입력해 개발 서버 켜기",
+    "confusableWith": ["gui"],
+    "contrast": "GUI는 버튼을 눌러 조작하고, CLI(터미널)는 글자 명령을 입력해 조작해요.",
+    "situation": {
+      "aiSays": "터미널에 npm install 을 입력해 주세요.",
+      "question": "이 말의 뜻은?",
+      "answer": "명령어 창에 글자로 설치 명령을 입력하라는 뜻",
+      "distractors": [
+        "인터넷 검색창에 입력하라는 뜻",
+        "메모장에 적으라는 뜻",
+        "앱스토어에서 설치하라는 뜻"
+      ]
+    },
+    "explainKeywords": ["글자", "명령", "입력"],
+    "vibeTip": "\"이 명령어가 뭘 하는지 먼저 설명해줘\"라고 물어보세요.",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "localhost",
+    "term": "localhost",
+    "termFull": "로컬호스트 (내 컴퓨터)",
+    "aliases": ["localhost", "로컬호스트", "127.0.0.1"],
+    "stage": 8,
+    "icon": "House",
+    "chip": "내 컴퓨터 주소",
+    "definition": "내 컴퓨터에서만 열리는 주소예요. 개발 중인 앱을 공개하기 전에 확인할 때 써요.",
+    "analogy": "공연 전 집에서 하는 연습",
+    "example": "http://localhost:5173",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "이 주소는 친구에게 보내도 열리지 않아요. 배포 후 링크를 공유하세요.",
+      "question": "이 말의 뜻은?",
+      "answer": "지금 주소는 내 컴퓨터에서만 열린다는 뜻",
+      "distractors": [
+        "친구 인터넷이 느리다는 뜻",
+        "주소를 복사하면 된다는 뜻",
+        "비밀번호를 알려 줘야 한다는 뜻"
+      ]
+    },
+    "explainKeywords": ["내 컴퓨터", "개발", "주소"],
+    "vibeTip": "\"내 컴퓨터에서 실행하는 방법 알려줘\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "npm",
+    "term": "패키지 / npm",
+    "termFull": "Node Package Manager",
+    "aliases": ["npm", "패키지", "package", "라이브러리", "패키지/npm"],
+    "stage": 8,
+    "icon": "PackageOpen",
+    "chip": "코드 부품",
+    "definition": "다른 사람이 만들어 둔 코드 부품(패키지)을 설치해 가져다 쓰는 도구예요.",
+    "analogy": "필요한 부품을 사 오는 부품 가게",
+    "example": "npm install lucide-react (아이콘 부품 설치)",
+    "confusableWith": ["pip"],
+    "contrast": "pip는 파이썬용, npm은 자바스크립트용 패키지 설치 도구예요.",
+    "situation": {
+      "aiSays": "이 기능은 직접 만들기보다 검증된 패키지를 설치하는 게 좋아요.",
+      "question": "이 말의 뜻은?",
+      "answer": "이미 만들어진 코드 부품을 가져다 쓰자는 뜻",
+      "distractors": ["택배를 보내자는 뜻", "코드를 전부 새로 쓰자는 뜻", "앱을 삭제하자는 뜻"]
+    },
+    "explainKeywords": ["부품", "설치", "다른 사람"],
+    "vibeTip": "\"이 패키지가 믿을 만한지 확인해줘\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "env",
+    "term": "환경변수 / .env",
+    "termFull": "Environment Variables",
+    "aliases": ["환경변수", ".env", "env", "dotenv"],
+    "stage": 8,
+    "icon": "Lock",
+    "chip": "비밀값 금고",
+    "definition": "비밀번호·서비스 키 같은 비밀값을 코드와 분리해 보관하는 설정 파일이에요. GitHub에 올리면 안 돼요.",
+    "analogy": "열쇠를 넣어 두는 금고",
+    "example": "OPENAI_API_KEY=... 를 .env 파일에 저장",
+    "confusableWith": ["api-key", "path"],
+    "contrast": "환경변수(.env)는 비밀·설정값을 넣어 두는 금고, API 키는 그 안의 열쇠예요. PATH는 환경변수 중 실행 파일 위치를 알려 주는 한 종류예요.",
+    "situation": {
+      "aiSays": ".env 파일은 .gitignore에 추가해서 GitHub에 올라가지 않게 할게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "비밀값이 담긴 파일을 공개 저장소에 올리지 않게 막겠다는 뜻",
+      "distractors": [
+        "파일을 삭제하겠다는 뜻",
+        "파일을 모두에게 공유하겠다는 뜻",
+        "파일 이름을 바꾸겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["비밀", "분리", "보관"],
+    "vibeTip": "\"비밀값은 전부 .env로 옮겨줘\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "api-key",
+    "term": "API 키",
+    "termFull": "API Key",
+    "aliases": ["api키", "apikey", "api key", "키"],
+    "stage": 8,
+    "icon": "Key",
+    "chip": "사용 허가증",
+    "definition": "외부 서비스를 내 계정으로 쓸 수 있게 해 주는 비밀 문자열이에요. 유출되면 남이 내 돈으로 쓸 수 있어요.",
+    "analogy": "절대 빌려주면 안 되는 회원 카드",
+    "example": "지도·결제·AI 서비스를 연결할 때 발급",
+    "confusableWith": ["env"],
+    "contrast": "환경변수(.env)는 비밀을 넣어 두는 금고, API 키는 그 안에 넣는 열쇠예요.",
+    "situation": {
+      "aiSays": "코드에 API 키가 그대로 적혀 있어요. 노출됐다면 바로 재발급하세요.",
+      "question": "이 말의 뜻은?",
+      "answer": "비밀 키가 공개돼 도용될 수 있으니 새로 바꾸라는 뜻",
+      "distractors": ["키보드를 바꾸라는 뜻", "비밀번호를 짧게 하라는 뜻", "코드를 인쇄하라는 뜻"]
+    },
+    "explainKeywords": ["비밀", "서비스", "계정"],
+    "vibeTip": "키는 채팅이나 코드에 직접 붙여 넣지 말고 .env에 넣으세요.",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "git",
+    "term": "Git",
+    "termFull": "깃",
+    "aliases": ["git", "깃"],
+    "stage": 8,
+    "icon": "GitBranch",
+    "chip": "세이브 기능",
+    "definition": "코드가 바뀐 기록을 저장해서 언제든 이전 상태로 되돌릴 수 있게 해 주는 도구예요.",
+    "analogy": "게임의 세이브 포인트",
+    "example": "AI가 망친 코드를 어제 상태로 되돌리기",
+    "confusableWith": ["github"],
+    "contrast": "Git은 내 컴퓨터의 세이브 기능, GitHub는 그 세이브를 올려 두는 온라인 공간이에요.",
+    "situation": {
+      "aiSays": "큰 수정 전에 Git으로 현재 상태를 저장해 둘게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "문제가 생기면 되돌릴 수 있게 지금 상태를 기록해 두겠다는 뜻",
+      "distractors": [
+        "코드를 인터넷에 공개하겠다는 뜻",
+        "코드를 삭제하겠다는 뜻",
+        "서버를 끄겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["기록", "되돌리", "저장"],
+    "vibeTip": "\"수정하기 전에 지금 상태부터 저장해줘\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "commit",
+    "term": "커밋",
+    "termFull": "Commit",
+    "aliases": ["commit", "커밋"],
+    "stage": 8,
+    "icon": "GitCommitHorizontal",
+    "chip": "세이브 한 번",
+    "definition": "지금까지 바뀐 코드를 설명 한 줄과 함께 기록에 한 번 저장하는 것이에요.",
+    "analogy": "게임에서 세이브 버튼 한 번 누르기",
+    "example": "\"로그인 버튼 색 변경\" 이라는 메모와 함께 저장",
+    "confusableWith": ["deploy"],
+    "contrast": "커밋은 내 기록에 저장, 배포는 사용자에게 공개, CI/CD는 테스트부터 공개까지 자동으로 하는 라인이에요.",
+    "situation": {
+      "aiSays": "변경 사항을 커밋했어요. 아직 사이트에는 반영되지 않았어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "내 기록에는 저장했지만 사용자에게 공개된 건 아니라는 뜻",
+      "distractors": ["사이트에 바로 공개됐다는 뜻", "코드를 삭제했다는 뜻", "결제가 완료됐다는 뜻"]
+    },
+    "explainKeywords": ["저장", "기록", "한 번"],
+    "vibeTip": "\"작업 단위로 나눠서 저장(커밋)해줘\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "github",
+    "term": "GitHub",
+    "termFull": "깃허브",
+    "aliases": ["github", "깃허브", "깃헙"],
+    "stage": 8,
+    "icon": "CloudUpload",
+    "chip": "코드 보관소",
+    "definition": "코드 기록을 인터넷에 올려 두고 백업·공유·협업하는 온라인 서비스예요.",
+    "analogy": "코드 전용 구글 드라이브",
+    "example": "내 프로젝트를 올리고 Vercel과 연결",
+    "confusableWith": ["git"],
+    "contrast": "Git은 내 컴퓨터의 세이브 기능, GitHub는 그 세이브를 올려 두는 온라인 공간이에요.",
+    "situation": {
+      "aiSays": "GitHub에 푸시하면 Vercel이 자동으로 새 버전을 배포해요.",
+      "question": "이 말의 뜻은?",
+      "answer": "코드 기록을 온라인 저장소에 올리면 자동 공개까지 이어진다는 뜻",
+      "distractors": [
+        "코드를 이메일로 보낸다는 뜻",
+        "컴퓨터를 포맷한다는 뜻",
+        "앱을 스토어에 올린다는 뜻"
+      ]
+    },
+    "explainKeywords": ["온라인", "백업", "공유"],
+    "vibeTip": "\"이 프로젝트를 GitHub에 올리는 방법 알려줘\"",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "debugging",
+    "term": "디버깅",
+    "termFull": "Debugging (에러 원인 찾기)",
+    "aliases": ["디버깅", "debugging", "debug", "디버그"],
+    "stage": 8,
+    "icon": "Bug",
+    "chip": "원인 찾기",
+    "definition": "에러 메시지와 기록을 단서로 문제의 원인을 찾아 고치는 과정이에요.",
+    "analogy": "진단서를 보고 원인을 찾아 치료하는 의사",
+    "example": "빨간 에러 메시지를 그대로 복사해 AI에게 붙여 넣기",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "에러 메시지 전체와 어떤 버튼을 눌렀는지 알려 주시면 원인을 찾을게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "문제 원인을 찾으려면 에러 내용과 재현 방법이 필요하다는 뜻",
+      "distractors": [
+        "벌레를 잡아야 한다는 뜻",
+        "코드를 전부 지워야 한다는 뜻",
+        "컴퓨터를 새로 사야 한다는 뜻"
+      ]
+    },
+    "explainKeywords": ["에러", "원인", "고치"],
+    "vibeTip": "에러는 요약하지 말고 전체를 복사해서 붙여 넣으세요.",
+    "source": "research",
+    "pdfPage": null
+  },
+  {
+    "id": "local-app",
+    "term": "로컬앱",
+    "termFull": "Local App",
+    "aliases": ["로컬앱", "localapp", "local app"],
+    "stage": 9,
+    "icon": "Laptop",
+    "chip": "내 컴퓨터에서 실행",
+    "definition": "웹 브라우저나 서버 접속 없이 내 컴퓨터 운영체제에서 직접, 독립적으로 실행되는 프로그램이에요.",
+    "analogy": "식당에 가지 않고 집 주방에서 직접 해 먹는 요리",
+    "example": "메모장, 계산기, 직접 만든 유튜브 다운로더",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "이건 웹사이트가 아니라 로컬앱이라 접속 주소가 따로 없어요. 실행 파일을 전달해야 해요.",
+      "question": "이 말의 뜻은?",
+      "answer": "인터넷 주소로 접속하는 게 아니라 각자 컴퓨터에서 실행하는 프로그램이라는 뜻",
+      "distractors": [
+        "서버를 빌려야 한다는 뜻",
+        "브라우저에서만 열린다는 뜻",
+        "링크만 보내면 된다는 뜻"
+      ]
+    },
+    "explainKeywords": ["내 컴퓨터", "직접", "실행"],
+    "vibeTip": "\"웹이 아니라 내 컴퓨터에서 실행되는 프로그램으로 만들어줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 1
+  },
+  {
+    "id": "gui",
+    "term": "GUI",
+    "termFull": "Graphical User Interface",
+    "aliases": ["gui", "지유아이", "그래픽유저인터페이스"],
+    "stage": 9,
+    "icon": "PanelsTopLeft",
+    "chip": "눈으로 보고 클릭",
+    "definition": "창·버튼·마우스 클릭 같은 그래픽 요소로 컴퓨터와 소통하는 방식이에요.",
+    "analogy": "글자 대신 그림을 눌러 주문하는 키오스크 화면",
+    "example": "버튼과 입력칸이 있는 프로그램 창",
+    "confusableWith": ["terminal"],
+    "contrast": "GUI는 버튼을 눌러 조작하고, CLI(터미널)는 글자 명령을 입력해 조작해요.",
+    "situation": {
+      "aiSays": "지금은 터미널에서만 실행돼요. GUI를 붙이면 버튼으로 쓸 수 있어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "창과 버튼이 있는 화면을 만들어 마우스로 조작하게 하자는 뜻",
+      "distractors": [
+        "글자 명령어를 더 외워야 한다는 뜻",
+        "서버를 추가해야 한다는 뜻",
+        "화질을 높이자는 뜻"
+      ]
+    },
+    "explainKeywords": ["그래픽", "버튼", "클릭"],
+    "vibeTip": "\"터미널 말고 버튼이 있는 창으로 만들어줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 13
+  },
+  {
+    "id": "pip",
+    "term": "pip",
+    "termFull": "파이썬 패키지 설치 도구",
+    "aliases": ["pip", "핍", "pip3"],
+    "stage": 9,
+    "icon": "Download",
+    "chip": "파이썬 부품 설치",
+    "definition": "파이썬 패키지를 인터넷에서 내려받아 설치하고 관리해 주는 명령어 도구예요.",
+    "analogy": "파이썬 전용 부품 배달 앱",
+    "example": "pip install requests",
+    "confusableWith": ["npm"],
+    "contrast": "pip는 파이썬용, npm은 자바스크립트용 패키지 설치 도구예요.",
+    "situation": {
+      "aiSays": "ModuleNotFoundError가 났어요. pip install yt-dlp 를 먼저 실행해 주세요.",
+      "question": "이 말의 뜻은?",
+      "answer": "필요한 파이썬 패키지가 설치되지 않아서 먼저 설치하라는 뜻",
+      "distractors": [
+        "파이썬을 삭제하라는 뜻",
+        "유튜브에 로그인하라는 뜻",
+        "파일 이름을 바꾸라는 뜻"
+      ]
+    },
+    "explainKeywords": ["파이썬", "패키지", "설치"],
+    "vibeTip": "\"필요한 패키지 설치해줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 5
+  },
+  {
+    "id": "venv",
+    "term": "가상환경",
+    "termFull": "Virtual Environment (.venv)",
+    "aliases": ["가상환경", "venv", ".venv", "virtualenv"],
+    "stage": 9,
+    "icon": "Box",
+    "chip": "프로젝트별 보관함",
+    "definition": "프로젝트마다 독립된 파이썬 실행 공간을 만들어, 다른 프로젝트의 패키지 버전과 충돌하지 않게 하는 방법이에요.",
+    "analogy": "요리마다 따로 쓰는 전용 도마와 양념통",
+    "example": "python -m venv .venv 후 활성화하면 터미널 앞에 (.venv) 표시",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "터미널 앞에 (.venv)가 안 보여요. 먼저 활성화한 뒤 설치해 주세요.",
+      "question": "이 말의 뜻은?",
+      "answer": "이 프로젝트 전용 공간이 켜지지 않았으니 켠 다음 패키지를 설치하라는 뜻",
+      "distractors": ["컴퓨터를 재부팅하라는 뜻", "새 컴퓨터를 사라는 뜻", "인터넷을 끊으라는 뜻"]
+    },
+    "explainKeywords": ["프로젝트", "독립", "충돌"],
+    "vibeTip": "\"가상환경 만들고 그 안에 패키지 설치해줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 5
+  },
+  {
+    "id": "pyqt5",
+    "term": "PyQt5",
+    "termFull": "파이썬 화면 제작 라이브러리",
+    "aliases": ["pyqt5", "pyqt", "파이큐티"],
+    "stage": 9,
+    "icon": "LayoutDashboard",
+    "chip": "창·버튼 만들기",
+    "definition": "파이썬으로 창·버튼·입력칸이 있는 데스크톱 프로그램 화면을 만들 수 있게 해 주는 대표적인 라이브러리예요.",
+    "analogy": "창문·문·손잡이가 들어 있는 조립식 집 키트",
+    "example": "URL 입력칸과 조회 버튼이 있는 프로그램 창",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "PyQt5로 입력칸과 조회 버튼이 있는 메인 창을 만들게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "파이썬 화면 제작 라이브러리로 프로그램 창과 버튼을 만들겠다는 뜻",
+      "distractors": [
+        "웹사이트를 만들겠다는 뜻",
+        "영상을 편집하겠다는 뜻",
+        "데이터베이스를 만들겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["파이썬", "창", "버튼"],
+    "vibeTip": "\"PyQt5로 버튼 있는 창 만들어줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 5
+  },
+  {
+    "id": "yt-dlp",
+    "term": "yt-dlp",
+    "termFull": "영상 정보 조회·다운로드 도구",
+    "aliases": ["yt-dlp", "ytdlp"],
+    "stage": 9,
+    "icon": "MonitorPlay",
+    "chip": "영상 조회·다운로드",
+    "definition": "유튜브를 비롯한 여러 사이트의 영상 정보(제목·썸네일·조회수)를 읽고 내려받는 도구이자 파이썬 라이브러리예요.",
+    "analogy": "영상 가게에서 정보를 확인하고 가져다주는 심부름꾼",
+    "example": "URL을 넣으면 제목과 조회수를 알려 줌",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "yt-dlp로 먼저 영상 정보를 조회하고, 다운로드는 다음 단계에서 붙일게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "영상 도구로 제목·썸네일부터 가져오고 저장 기능은 나중에 추가한다는 뜻",
+      "distractors": [
+        "영상을 직접 촬영하겠다는 뜻",
+        "유튜브 계정을 만들겠다는 뜻",
+        "영상을 삭제하겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["영상", "정보", "다운로드"],
+    "vibeTip": "\"제목과 썸네일만 먼저 가져와줘\" (저작권·플랫폼 정책 범위 안에서만 사용)",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 5
+  },
+  {
+    "id": "requests",
+    "term": "requests",
+    "termFull": "파이썬 웹 요청 라이브러리",
+    "aliases": ["requests", "리퀘스트", "request"],
+    "stage": 9,
+    "icon": "Send",
+    "chip": "웹에 요청 보내기",
+    "definition": "파이썬 코드에서 웹 서버에 요청을 보내고 응답을 받아 오는 라이브러리예요. 이미지 내려받기 등에 써요.",
+    "analogy": "주문서를 들고 가게에 다녀오는 배달 기사",
+    "example": "썸네일 주소로 요청해 이미지 받아 오기",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "썸네일은 requests로 이미지 주소에서 내려받아 화면에 표시할게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "파이썬 코드가 웹에 요청을 보내 이미지를 받아 온다는 뜻",
+      "distractors": [
+        "사용자에게 허락을 구한다는 뜻",
+        "이미지를 직접 그린다는 뜻",
+        "서버를 새로 만든다는 뜻"
+      ]
+    },
+    "explainKeywords": ["요청", "응답", "파이썬"],
+    "vibeTip": "\"이 주소에서 데이터를 받아오는 코드 만들어줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 5
+  },
+  {
+    "id": "path",
+    "term": "PATH",
+    "termFull": "PATH 환경변수",
+    "aliases": ["path", "패스", "path환경변수"],
+    "stage": 9,
+    "icon": "Map",
+    "chip": "실행 파일 주소록",
+    "definition": "명령어를 입력했을 때 운영체제가 그 실행 파일을 어느 폴더에서 찾을지 미리 적어 둔 경로 목록이에요.",
+    "analogy": "이름만 말하면 어디 사는지 찾아 주는 주소록",
+    "example": "C:\\ffmpeg\\bin 을 추가하면 어디서든 그 명령을 쓸 수 있음",
+    "confusableWith": ["env"],
+    "contrast": "환경변수는 컴퓨터·프로젝트가 참고하는 설정값 전체, PATH는 그중 '실행 파일 위치'를 알려 주는 한 종류예요.",
+    "situation": {
+      "aiSays": "'ffmpeg'은(는) 내부 또는 외부 명령이 아니라고 나와요. PATH에 등록되지 않은 것 같아요.",
+      "question": "이 말의 뜻은?",
+      "answer": "컴퓨터가 그 프로그램이 어느 폴더에 있는지 몰라서 못 찾는다는 뜻",
+      "distractors": [
+        "프로그램에 바이러스가 있다는 뜻",
+        "인터넷 주소가 틀렸다는 뜻",
+        "파일 용량이 너무 크다는 뜻"
+      ]
+    },
+    "explainKeywords": ["명령어", "폴더", "찾"],
+    "vibeTip": "\"이 프로그램을 PATH에 등록하는 방법을 단계별로 알려줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 8
+  },
+  {
+    "id": "subprocess",
+    "term": "subprocess",
+    "termFull": "외부 프로그램 실행 모듈",
+    "aliases": ["subprocess", "서브프로세스"],
+    "stage": 9,
+    "icon": "Play",
+    "chip": "외부 도구 실행",
+    "definition": "파이썬 코드 안에서 외부 명령줄 프로그램을 대신 실행시킬 때 쓰는 파이썬 기본 모듈이에요.",
+    "analogy": "주방에서 옆 가게에 전화해 일을 맡기는 것",
+    "example": "파이썬이 ffmpeg 명령을 실행해 영상과 음성을 합침",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "병합은 파이썬이 subprocess로 ffmpeg를 호출해서 처리해요.",
+      "question": "이 말의 뜻은?",
+      "answer": "파이썬 코드가 외부 프로그램을 대신 실행시킨다는 뜻",
+      "distractors": [
+        "파이썬을 두 번 설치한다는 뜻",
+        "영상을 서버에 올린다는 뜻",
+        "프로그램을 종료한다는 뜻"
+      ]
+    },
+    "explainKeywords": ["파이썬", "외부", "실행"],
+    "vibeTip": "\"파이썬에서 이 명령어를 실행하게 해줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 8
+  },
+  {
+    "id": "ffmpeg",
+    "term": "ffmpeg",
+    "termFull": "미디어 변환·병합 도구",
+    "aliases": ["ffmpeg", "에프에프엠펙"],
+    "stage": 9,
+    "icon": "Film",
+    "chip": "영상·음성 병합",
+    "definition": "오디오·비디오 형식을 바꾸거나, 따로 받은 영상과 음성을 하나로 합쳐 주는 오픈소스 명령줄 도구예요.",
+    "analogy": "따로 온 면과 국물을 한 그릇에 담아 주는 주방 보조",
+    "example": "1080p 이상은 영상·음성이 따로 와서 이 도구로 합쳐야 함",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "720p까지만 받아지는 건 ffmpeg가 없어서예요. 설치하면 고화질도 병합할 수 있어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "영상과 음성을 합쳐 줄 도구가 없어서 고화질을 못 받는다는 뜻",
+      "distractors": ["인터넷이 느려서라는 뜻", "계정이 정지됐다는 뜻", "모니터 해상도가 낮다는 뜻"]
+    },
+    "explainKeywords": ["영상", "음성", "합쳐"],
+    "vibeTip": "\"설치 여부를 먼저 확인하고, 없으면 안내 문구를 보여줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 8
+  },
+  {
+    "id": "fallback",
+    "term": "fallback",
+    "termFull": "폴백 (대체 수단)",
+    "aliases": ["fallback", "폴백"],
+    "stage": 9,
+    "icon": "LifeBuoy",
+    "chip": "차선책 자동 전환",
+    "definition": "1순위 방법이 실패했을 때 프로그램이 멈추지 않고, 미리 정해 둔 차선책으로 자동 전환되게 하는 전략이에요.",
+    "analogy": "주문한 메뉴가 품절이면 대신 나오는 비슷한 메뉴",
+    "example": "4K가 없으면 1080p로 자동 다운로드",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "최고 화질이 없을 때를 대비해 fallback을 넣었어요.",
+      "question": "이 말의 뜻은?",
+      "answer": "원하는 화질이 없으면 멈추지 않고 다음 화질로 자동 전환되게 했다는 뜻",
+      "distractors": ["화질을 일부러 낮췄다는 뜻", "다운로드를 취소한다는 뜻", "에러를 숨겼다는 뜻"]
+    },
+    "explainKeywords": ["실패", "차선책", "전환"],
+    "vibeTip": "\"실패하면 멈추지 말고 차선책으로 넘어가게 해줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 9
+  },
+  {
+    "id": "pyinstaller",
+    "term": "PyInstaller",
+    "termFull": "파이썬 패키징 도구",
+    "aliases": ["pyinstaller", "파이인스톨러"],
+    "stage": 9,
+    "icon": "PackageCheck",
+    "chip": "실행 파일로 묶기",
+    "definition": "파이썬 코드와 필요한 라이브러리를 하나로 묶어, 파이썬이 없는 컴퓨터에서도 실행되는 파일로 만들어 주는 도구예요.",
+    "analogy": "재료와 조리 도구까지 한 상자에 담아 주는 포장 기계",
+    "example": "pyinstaller --onefile --windowed main.py",
+    "confusableWith": ["exe"],
+    "contrast": "PyInstaller는 묶어 주는 도구, exe는 그 결과로 나온 실행 파일이에요.",
+    "situation": {
+      "aiSays": "빌드하면 dist 폴더에 결과물이 생기고, build 폴더는 중간 산출물이에요.",
+      "question": "이 말의 뜻은?",
+      "answer": "코드를 실행 파일로 묶으면 완성본과 작업 중간 파일이 서로 다른 폴더에 생긴다는 뜻",
+      "distractors": [
+        "코드가 두 번 복사돼 오류라는 뜻",
+        "build 폴더를 친구에게 보내야 한다는 뜻",
+        "파이썬이 삭제된다는 뜻"
+      ]
+    },
+    "explainKeywords": ["묶어", "실행", "파이썬"],
+    "vibeTip": "\"파이썬 없는 컴퓨터에서도 돌아가게 패키징해줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 11
+  },
+  {
+    "id": "exe",
+    "term": "exe",
+    "termFull": "실행 파일 (Executable)",
+    "aliases": ["exe", "실행파일", ".exe"],
+    "stage": 9,
+    "icon": "FileCog",
+    "chip": "더블클릭 실행",
+    "definition": "Windows에서 더블클릭만 하면 바로 실행되는 프로그램 파일 형식이에요. 배포용 결과물로 많이 써요.",
+    "analogy": "포장을 뜯으면 바로 먹을 수 있는 완제품 도시락",
+    "example": "dist\\main.exe — 서명이 없으면 백신이 경고할 수 있어요",
+    "confusableWith": ["pyinstaller"],
+    "contrast": "PyInstaller는 묶어 주는 도구, exe는 그 결과로 나온 실행 파일이에요.",
+    "situation": {
+      "aiSays": "빌드가 끝나서 dist 폴더에 main.exe가 생겼어요. 이 파일만 전달하면 돼요.",
+      "question": "이 말의 뜻은?",
+      "answer": "파이썬이 없는 컴퓨터에서도 더블클릭으로 실행되는 파일이 만들어졌다는 뜻",
+      "distractors": [
+        "소스 코드가 삭제됐다는 뜻",
+        "웹사이트 주소가 생겼다는 뜻",
+        "파이썬을 다시 설치해야 한다는 뜻"
+      ]
+    },
+    "explainKeywords": ["더블클릭", "실행", "Windows"],
+    "vibeTip": "\"친구에게 줄 수 있게 실행 파일로 만들어줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 11
+  },
+  {
+    "id": "plan-md",
+    "term": "plan.md",
+    "termFull": "구현 계획 명세서",
+    "aliases": ["plan.md", "planmd", "plan", "플랜"],
+    "stage": 9,
+    "icon": "ClipboardList",
+    "chip": "이번 구현 범위",
+    "definition": "구현 전에 이번에 만들 기능·범위·예외 처리·실행 방법을 정리해 두고, AI와 주고받으며 다듬는 계획 문서예요.",
+    "analogy": "요리 시작 전에 적어 두는 오늘의 조리 순서표",
+    "example": "\"조회 기능만, 다운로드는 아직 넣지 않기\"",
+    "confusableWith": ["prd"],
+    "contrast": "PRD/Spec은 무엇을 왜 만드는지, plan.md는 이번에 어디까지 어떻게 구현할지를 적어요.",
+    "situation": {
+      "aiSays": "좋아요. 현재 plan.md 범위 안에서만 구현할게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "문서에 적힌 기능까지만 만들고 그 밖의 것은 건드리지 않겠다는 뜻",
+      "distractors": [
+        "계획 없이 전부 만들겠다는 뜻",
+        "문서를 삭제하겠다는 뜻",
+        "디자인만 하겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["구현 전", "범위", "계획"],
+    "vibeTip": "\"plan.md 범위 안에서만 구현해줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 3
+  },
+  {
+    "id": "agents-md",
+    "term": "AGENTS.md",
+    "termFull": "AI 작업 규칙 파일",
+    "aliases": ["agents.md", "agentsmd", "agents", "에이전츠"],
+    "stage": 9,
+    "icon": "Gavel",
+    "chip": "AI 운영 헌법",
+    "definition": "이 프로젝트에서 AI가 따라야 할 작업 규칙을 적어 둔 파일이에요. AI가 마음대로 코드를 고치지 못하게 순서를 정해 둬요.",
+    "analogy": "신입 직원에게 주는 회사 업무 규정집",
+    "example": "\"승인 없이 파일을 수정하지 말 것\"",
+    "confusableWith": ["memory-bank"],
+    "contrast": "AGENTS.md는 '어떻게 일할지' 규칙, 메모리 뱅크는 '지금까지 무슨 일이 있었는지' 기록이에요.",
+    "situation": {
+      "aiSays": "AGENTS.md 규칙에 따라, 수정 전에 계획을 먼저 보여 드릴게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "프로젝트에 정해 둔 작업 규칙대로 승인을 받고 진행하겠다는 뜻",
+      "distractors": [
+        "규칙 파일을 지우겠다는 뜻",
+        "다른 AI로 바꾸겠다는 뜻",
+        "계획 없이 바로 고치겠다는 뜻"
+      ]
+    },
+    "explainKeywords": ["AI", "규칙", "파일"],
+    "vibeTip": "\"규칙 파일에 '승인 전에는 코드를 수정하지 않는다'를 추가해줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 3
+  },
+  {
+    "id": "memory-bank",
+    "term": "메모리 뱅크",
+    "termFull": "Memory Bank",
+    "aliases": ["메모리뱅크", "memorybank", "memory bank"],
+    "stage": 9,
+    "icon": "NotebookPen",
+    "chip": "AI의 기억 노트",
+    "definition": "프로젝트의 맥락·패턴·진행 상황을 문서로 기록해 두어, AI가 이전 대화나 요구사항을 잊지 않게 하는 문서 묶음이에요.",
+    "analogy": "교대 근무자에게 남기는 인수인계 노트",
+    "example": "\"메모리뱅크 업데이트하고 푸시해줘\"",
+    "confusableWith": ["agents-md"],
+    "contrast": "AGENTS.md는 '어떻게 일할지' 규칙, 메모리 뱅크는 '지금까지 무슨 일이 있었는지' 기록이에요.",
+    "situation": {
+      "aiSays": "새 대화라 이전 내용을 모르지만, 메모리 뱅크를 읽고 이어서 진행할게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "기록해 둔 문서를 읽어 지난 작업의 맥락을 되살린다는 뜻",
+      "distractors": [
+        "컴퓨터 메모리를 늘린다는 뜻",
+        "은행 계좌를 만든다는 뜻",
+        "처음부터 다시 만든다는 뜻"
+      ]
+    },
+    "explainKeywords": ["기록", "맥락", "잊지"],
+    "vibeTip": "\"작업 끝났으니 메모리뱅크 업데이트해줘\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 3
+  },
+  {
+    "id": "plan-go-act",
+    "term": "PLAN → GO → ACT",
+    "termFull": "계획 → 승인 → 실행",
+    "aliases": ["plangoact", "plan go act", "plan-go-act", "플랜고액트"],
+    "stage": 9,
+    "icon": "ListOrdered",
+    "chip": "승인 후 실행",
+    "definition": "AI가 먼저 계획을 보여 주고, 사람이 승인한 뒤에야 실제로 코드를 고치게 하는 3단계 작업 순서예요.",
+    "analogy": "견적서를 보고 '진행하세요'라고 한 뒤에 시작하는 공사",
+    "example": "\"좋아. Go.\"라고 하면 그때 구현 시작",
+    "confusableWith": [],
+    "contrast": "",
+    "situation": {
+      "aiSays": "계획은 여기까지예요. 'Go'라고 하시면 구현을 시작할게요.",
+      "question": "이 말의 뜻은?",
+      "answer": "사람이 승인해야 AI가 실제 수정에 들어간다는 뜻",
+      "distractors": [
+        "AI가 이미 다 고쳤다는 뜻",
+        "프로그램 이름이 Go라는 뜻",
+        "계획을 취소한다는 뜻"
+      ]
+    },
+    "explainKeywords": ["계획", "승인", "실행"],
+    "vibeTip": "\"먼저 계획만 보여주고, 내가 Go 하면 시작해\"",
+    "source": "pdf",
+    "pdfDoc": "youtube-downloader",
+    "pdfPage": 3
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "url-to-screen",
+    "title": "주소를 치면 무슨 일이?",
+    "steps": ["DNS 조회", "서버 연결 (Handshake)", "HTTP 요청/응답", "렌더링"],
+    "requiredCards": ["dns", "handshake", "http", "rendering"],
+    "pdfPage": 2
+  },
+  {
+    "id": "request-response",
+    "title": "클라이언트와 서버",
+    "steps": ["주문서 보내기 (요청)", "요리하기 (처리)", "음식 받기 (응답)"],
+    "requiredCards": ["client", "server", "http"],
+    "pdfPage": 12
+  },
+  {
+    "id": "instagram-like",
+    "title": "인스타그램 좋아요",
+    "steps": ["하트 버튼 클릭", "POST /likes 요청", "로그인·중복 확인", "DB에 저장"],
+    "requiredCards": ["frontend", "api", "backend", "database"],
+    "pdfPage": 14
+  },
+  {
+    "id": "delivery-order",
+    "title": "배달 앱 주문",
+    "steps": ["메뉴 선택", "POST /orders 전송", "재고 확인·DB 저장", "주문 완료 화면", "사장님께 푸시 알림"],
+    "requiredCards": ["api", "http-methods", "database", "push"],
+    "pdfPage": 11
+  },
+  {
+    "id": "netflix-play",
+    "title": "넷플릭스 재생",
+    "steps": ["재생 버튼 클릭", "권한 확인 (API → 백엔드)", "CDN 주소 받기", "스트리밍 시작"],
+    "requiredCards": ["frontend", "api", "backend", "cdn"],
+    "pdfPage": 8
+  },
+  {
+    "id": "system-growth",
+    "title": "시스템 성장 5단계",
+    "steps": ["서버 1대 + DB 1대", "서버 성능 올리기 (스케일 업)", "서버 여러 대 + 로드 밸런서", "DB 복제 + 캐시", "CDN·샤딩·메시지 큐"],
+    "requiredCards": ["scale-up", "scale-out", "load-balancer", "cache", "cdn"],
+    "pdfPage": 8
+  }
+]

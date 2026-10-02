@@ -1,0 +1,171 @@
+@import 'tailwindcss';
+
+/* 디자인 토큰 — 값의 근거와 사용 규칙은 DESIGN.md 참고 */
+
+:root {
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --bg-hover: #f2f2f2;
+  --bg-active: #ebebeb;
+  --fg: #171717;
+  --fg-muted: #4d4d4d;
+  --fg-subtle: #8f8f8f;
+  --border: rgba(0, 0, 0, 0.08);
+  --border-strong: rgba(0, 0, 0, 0.16);
+  --blue: #0070f3;
+  --green: #1a7f37;
+  --red: #d1242f;
+  --amber: #9a6700;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0a0a0a;
+    --surface: #111111;
+    --bg-hover: #1a1a1a;
+    --bg-active: #222222;
+    --fg: #ededed;
+    --fg-muted: #a1a1a1;
+    --fg-subtle: #707070;
+    --border: rgba(255, 255, 255, 0.1);
+    --border-strong: rgba(255, 255, 255, 0.18);
+    --blue: #3291ff;
+    --green: #3fb950;
+    --red: #f85149;
+    --amber: #d29922;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #0a0a0a;
+  --surface: #111111;
+  --bg-hover: #1a1a1a;
+  --bg-active: #222222;
+  --fg: #ededed;
+  --fg-muted: #a1a1a1;
+  --fg-subtle: #707070;
+  --border: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.18);
+  --blue: #3291ff;
+  --green: #3fb950;
+  --red: #f85149;
+  --amber: #d29922;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-bg-hover: var(--bg-hover);
+  --color-bg-active: var(--bg-active);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-subtle: var(--fg-subtle);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-blue: var(--blue);
+  --color-green: var(--green);
+  --color-red: var(--red);
+  --color-amber: var(--amber);
+}
+
+@theme {
+  --font-sans:
+    'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+    'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* 단계 색 — 8px 점 전용 */
+  --color-stage-1: #e5484d;
+  --color-stage-2: #f76b15;
+  --color-stage-3: #30a46c;
+  --color-stage-4: #0090ff;
+  --color-stage-5: #8e4ec6;
+  --color-stage-6: #d6409f;
+  --color-stage-7: #12a594;
+  --color-stage-8: #3e63dd;
+  --color-stage-9: #978365;
+
+  /* 모서리: 4 / 6 / 8 / 12 */
+  --radius-sm: 4px;
+  --radius: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* 컨테이너 폭 (DESIGN.md 1장) */
+  --container-wide: 1080px;
+  --container-narrow: 640px;
+
+  /* 타이포그래피 */
+  --text-display-sm: 2rem;
+  --text-display-sm--line-height: 2.5rem;
+  --text-display-sm--letter-spacing: -0.03em;
+  --text-h1-sm: 1.75rem;
+  --text-h1-sm--line-height: 2.25rem;
+  --text-h1-sm--letter-spacing: -0.025em;
+  --text-tab: 0.6875rem;
+  --text-tab--line-height: 1;
+  --text-stat: 2rem;
+  --text-stat--line-height: 2.5rem;
+  --text-display: 2.5rem;
+  --text-display--line-height: 3rem;
+  --text-display--letter-spacing: -0.03em;
+  --text-h1: 2rem;
+  --text-h1--line-height: 2.5rem;
+  --text-h1--letter-spacing: -0.025em;
+  --text-h2: 1.5rem;
+  --text-h2--line-height: 2rem;
+  --text-h2--letter-spacing: -0.02em;
+  --text-h3: 1.125rem;
+  --text-h3--line-height: 1.75rem;
+  --text-h3--letter-spacing: -0.01em;
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.75rem;
+  --text-body: 1rem;
+  --text-body--line-height: 1.5rem;
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.25rem;
+  --text-caption: 0.8125rem;
+  --text-caption--line-height: 1.125rem;
+  --text-label: 0.75rem;
+  --text-label--line-height: 1rem;
+  --text-label--letter-spacing: 0.02em;
+
+  /* 모션 */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@layer base {
+  html {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    min-height: 100dvh;
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+  }
+
+  :focus-visible {
+    outline: none;
+    box-shadow:
+      0 0 0 2px var(--bg),
+      0 0 0 4px var(--blue);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      transition-property: opacity, color, background-color, border-color !important;
+      animation: none !important;
+    }
+  }
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
