@@ -55,7 +55,8 @@
 | `npm run test:watch` | 테스트 감시 모드 |
 | `npm run lint` | ESLint |
 | `npm run format` | Prettier 정리 |
-| `npm run build` | 배포용 빌드 (`dist/`) |
+| `npm run build` | 배포용 빌드 (`dist/`) — main에 푸시하면 GitHub Actions가 자동으로 실행·배포 |
+| `npm run build:share` | HTML 한 파일로 빌드 (`share/index.html`) — 메신저로 보내 더블클릭 실행 |
 
 개발 중 날짜 이동: `http://localhost:5173/?now=2026-10-05` — 복습 일정을 며칠 뒤로 당겨 확인할 때 (개발 서버에서만 동작)
 

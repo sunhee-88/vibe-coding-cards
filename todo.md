@@ -10,7 +10,7 @@
 
 | 단계 | 이름 | 우선 | 상태 |
 |---|---|---|---|
-| 1 | 프로젝트 세팅 | P0 | 🟨 (GitHub·배포 남음) |
+| 1 | 프로젝트 세팅 | P0 | ✅ |
 | 2 | 디자인 시스템 · 공통 컴포넌트 | P0 | ✅ (미리보기 페이지만 생략) |
 | 3 | 카드 콘텐츠 데이터 | P0 | ✅ |
 | 4 | 날짜 · 저장 모듈 | P0 | ✅ |
@@ -35,14 +35,14 @@
 - [x] spec.md 8장 폴더 구조대로 파일 생성 (`data/`, `lib/`, `components/`, `pages/`, `tests/`)
 - [x] 라우팅 설정 (홈 / 세션 / 요약 / 도감 / 흐름 / 대시보드)
 - [x] Git 저장소 생성 (로컬)
-- [ ] GitHub 저장소 만들고 푸시
-- [ ] Vercel(또는 Netlify) 연결, 자동 배포 확인
+- [x] GitHub 저장소 만들고 푸시 — https://github.com/sunhee-88/vibe-coding-cards
+- [x] 자동 배포 (GitHub Pages + Actions, main에 푸시하면 테스트 → 빌드 → 배포)
 - [x] `CLAUDE.md` · `AGENT.md`(작업 규칙) · `DESIGN.md`(디자인 기준) 작성
 
 **완료 확인**
 - [x] `npm run dev`로 localhost에서 홈 화면이 보인다
 - [x] `npm test` 통과
-- [ ] 배포 URL에서 같은 화면이 보인다
+- [x] 배포 URL에서 같은 화면이 보인다 — https://sunhee-88.github.io/vibe-coding-cards/
 
 ---
 
@@ -301,7 +301,7 @@
 - [ ] PDF 출처 표기 (앱 정보 화면)
 
 ### 10-4. 출시
-- [ ] 프로덕션 배포, 공개 URL 확인
+- [x] 프로덕션 배포, 공개 URL 확인
 - [x] 기기 변경 시 기록이 사라진다는 안내 문구
 
 ### 10-5. 사용자 테스트 (PRD 9장, 입문자 5명 × 14일)
